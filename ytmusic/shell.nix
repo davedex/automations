@@ -10,6 +10,14 @@ let
 in with pkgs; mkShell {
   packages = [
     pythonPackages.discordpy
+    pythonPackages.beautifulsoup4
+    pythonPackages.lxml
+
+    pkgs.chromedriver
+    pkgs.chromium
+
+    # Create a script to run chromium
+    (pkgs.writeShellScriptBin "chromium" "exec -a $0 ${pkgs.chromium}/bin/chromium $@")
   ];
 
   buildInputs = [
