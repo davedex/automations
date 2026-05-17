@@ -3,14 +3,14 @@ from ytmusicapi import YTMusic
 from pathlib import Path
 
 beebplaylist = 'PLcBZP0TaYjtGyqhwng66iAC94flzjXqdZ'
-tong_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIOcGV0ZSB0b25nIDIwMjUaCXBldGUgdG9uZyINaHR0cCB1cGxvYWRlcg'
-residency_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIXcmFkaW8gMXMgcmVzaWRlbmN5IDIwMjUaEnJhZGlvIDFzIHJlc2lkZW5jeSINaHR0cCB1cGxvYWRlcg'
-howard_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIrcmFkaW8gMXMgZGFuY2UgcGFydHkgd2l0aCBkYW5ueSBob3dhcmQgMjAyNRomcmFkaW8gMXMgZGFuY2UgcGFydHkgd2l0aCBkYW5ueSBob3dhcmQiDWh0dHAgdXBsb2FkZXI'
-clubmix_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIwZGFubnkgaG93YXJkcyBjbHViIG1peCB0aGUgZmVlbCBnb29kIHNlcmllcyAyMDI1GitkYW5ueSBob3dhcmRzIGNsdWIgbWl4IHRoZSBmZWVsIGdvb2Qgc2VyaWVzIg1odHRwIHVwbG9hZGVy'
-essentialmix_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIbcmFkaW8gMXMgZXNzZW50aWFsIG1peCAyMDI1GhZyYWRpbyAxcyBlc3NlbnRpYWwgbWl4Ig1odHRwIHVwbG9hZGVy'
-future_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIrcmFkaW8gMXMgZnV0dXJlIGRhbmNlIHdpdGggc2FyYWggc3RvcnkgMjAyNRomcmFkaW8gMXMgZnV0dXJlIGRhbmNlIHdpdGggc2FyYWggc3RvcnkiDWh0dHAgdXBsb2FkZXI'
-tongmix_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIXcGV0ZSB0b25ncyBob3QgbWl4IDIwMjUaEnBldGUgdG9uZ3MgaG90IG1peCINaHR0cCB1cGxvYWRlcg'
-presents_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIbcmFkaW8gMSBkYW5jZSBwcmVzZW50cyAyMDI1GhZyYWRpbyAxIGRhbmNlIHByZXNlbnRzIg1odHRwIHVwbG9hZGVy'
+tong_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIOcGV0ZSB0b25nIDIwMjYaCXBldGUgdG9uZyINaHR0cCB1cGxvYWRlcg'
+residency_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIfcmVzaWRlbmN5IG9uIHJhZGlvIDEgZGFuY2UgMjAyNhoacmVzaWRlbmN5IG9uIHJhZGlvIDEgZGFuY2UiDWh0dHAgdXBsb2FkZXI'
+howard_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIrcmFkaW8gMXMgZGFuY2UgcGFydHkgd2l0aCBkYW5ueSBob3dhcmQgMjAyNhomcmFkaW8gMXMgZGFuY2UgcGFydHkgd2l0aCBkYW5ueSBob3dhcmQiDWh0dHAgdXBsb2FkZXI'
+clubmix_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIhcmFkaW8gMSBkYW5jZSBwYXJ0eSBzdGFydGVycyAyMDI2GhxyYWRpbyAxIGRhbmNlIHBhcnR5IHN0YXJ0ZXJzIg1odHRwIHVwbG9hZGVy'
+essentialmix_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIbcmFkaW8gMXMgZXNzZW50aWFsIG1peCAyMDI2GhZyYWRpbyAxcyBlc3NlbnRpYWwgbWl4Ig1odHRwIHVwbG9hZGVy'
+future_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIrcmFkaW8gMXMgZnV0dXJlIGRhbmNlIHdpdGggc2FyYWggc3RvcnkgMjAyNhomcmFkaW8gMXMgZnV0dXJlIGRhbmNlIHdpdGggc2FyYWggc3RvcnkiDWh0dHAgdXBsb2FkZXI'
+tongmix_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIXcGV0ZSB0b25ncyBob3QgbWl4IDIwMjYaEnBldGUgdG9uZ3MgaG90IG1peCINaHR0cCB1cGxvYWRlcg'
+presents_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIbcmFkaW8gMSBkYW5jZSBwcmVzZW50cyAyMDI2GhZyYWRpbyAxIGRhbmNlIHByZXNlbnRzIg1odHRwIHVwbG9hZGVy'
 
 
 def main():
@@ -27,11 +27,13 @@ def main():
     if not zerolength:
         ytmusic.remove_playlist_items(beebplaylist, current_contents)
     latest = []
+    #for album in [tong_album, howard_album, future_album, clubmix_album, essentialmix_album, residency_album]:
     for album in [tong_album, howard_album, future_album, tongmix_album, clubmix_album, essentialmix_album, residency_album, presents_album]:
         ytalbum = ytmusic.get_library_upload_album(album)
         if 'tracks' in ytalbum:
             tracks = ytalbum['tracks']
-            if album == presents_album and len(tracks) > 1:
+            two_track_albums = {presents_album, residency_album}
+            if album in two_track_albums and len(tracks) > 1:
                 latest.append(tracks[-2]['videoId'])
             latest.append(tracks[-1]['videoId'])
         else:
