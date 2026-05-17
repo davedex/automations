@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import os
 import sys
+import time
 import requests
 from datetime import datetime
 from pathlib import Path
@@ -8,6 +9,9 @@ from ytmusicapi import YTMusic
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
 # beatportlist = 'PLcBZP0TaYjtG_oaPRTZrE0q2th51GCjSJ'
@@ -16,47 +20,111 @@ beatportlist = 'VLPLcBZP0TaYjtE2angVmOcZzovA6u60_cb0'
 
 def get_searches():
     searches = []
-    # Get the top100
     scrapedir = Path('/home/ddexter/misc/beatport_scrapes')
     scrapedir.mkdir(parents=True, exist_ok=True)
     logfile = scrapedir / datetime.now().strftime('beatport_%Y-%m-%d.html')
+
     if logfile.exists():
         with open(logfile, 'r') as f:
             source = f.read()
+
     else:
+        print("Logfile not found. Starting browser scrape...")
         options = Options()
-        options.add_argument("--headless")  # Run without GUI
-        options.add_argument("--disable-gpu")
+        options.add_argument("--headless=new")
         options.add_argument("--no-sandbox")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--window-size=1920,1080")
+
+        # --- NEW STEALTH SETTINGS ---
+        # 1. Disable the "Automation" flag that Cloudflare looks for
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option('useAutomationExtension', False)
+
+        # 2. Use a very modern User-Agent (May 2026 version)
+        user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+        options.add_argument(f"user-agent={user_agent}")
 
         driver = webdriver.Chrome(options=options)
-        driver.get("http://www.beatport.com/top-100")
-        source = driver.page_source
-        with open(logfile, 'w') as f:
-            f.write(source)
-        print(f'Written {logfile}')
 
-    soup = BeautifulSoup(source, 'lxml')
-    for entry in soup.find_all('div', attrs={'data-testid': 'tracks-list-item'}):
-        data = {'artist':[], 'title':[]}
-        #titlecell = entry.find('div', attrs={'class': "sc-fdd08fbd-0 bgDQwW cell title"})
-        for link in entry.find_all('a'):
-            if not link.has_attr('href'):
-                continue
-            if link['href'].split('/')[1] == 'track':
-                data['title'] += [link['title']]
-                track_spans = link.find_all('span', attrs={'class': "Lists-shared-style__ItemName-sc-d366b33c-7 iODurf"})
-                first_span = track_spans[0] if track_spans else None
-                data['mix'] = first_span.find_all('span')[0].text if first_span.find_all('span') else None
-            if link['href'].split('/')[1] == 'artist':
-                data['artist'] += [link['title']]
-        title = ', '.join([x.replace('Original Mix', '').replace('Extended Mix', '') for x in data['title']])
-        artists = ', '.join(data['artist'])
-        mix = '' if data['mix'] == 'Original Mix' else data['mix']
-        searches.append(f"{artists} - {title} {mix}")
+        # 3. Use JavaScript to remove the 'webdriver' property entirely
+        driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+            "source": """
+                Object.defineProperty(navigator, 'webdriver', {
+                    get: () => undefined
+                })
+            """
+        })
+
+        driver.get("https://www.beatport.com/top-100")
+
+        # Increase wait to allow Cloudflare to "pass" the browser
+        print("Page requested. Waiting for Cloudflare/Loading...")
+        time.sleep(15)
+
+        try:
+            print(f"Current Page Title: {driver.title}") # Debug: see if we hit Cloudflare
+            print("Waiting for table rows...")
+
+            WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, '[data-testid="tracks-table-row"]'))
+            )
+            time.sleep(2)
+            source = driver.page_source
+            print("Rows detected and page captured.")
+
+            with open(logfile, 'w') as f:
+                f.write(source)
+
+        except Exception as e:
+            # If it fails, let's see what the page actually looked like
+            print(f"Failed to find rows. URL: {driver.current_url}")
+            print(f"Page Title at failure: {driver.title}")
+            driver.save_screenshot("error_screenshot.png") # This is very helpful for debugging
+            driver.quit()
+            return []
+
+        driver.quit()
+
+    soup = BeautifulSoup(source, 'html.parser') # Use standard parser for better compatibility
+
+    # 1. Find all 'track' links first
+    track_links = [a for a in soup.find_all('a') if a.get('href') and '/track/' in a.get('href')]
+
+    # Use a set to avoid duplicates (Beatport often has 2 links per track: artwork and title)
+    seen_track_ids = set()
+
+    for link in track_links:
+        href = link.get('href')
+        track_id = href.split('/')[-1]
+
+        if track_id in seen_track_ids:
+            continue
+        seen_track_ids.add(track_id)
+
+        # Now find the "Row" that contains this link
+        # We go up the 'parents' until we find the div that looks like a row
+        row = link.find_parent('div', class_=lambda x: x and 'TableRow' in x)
+        if not row:
+            # Fallback: just use the link's parent container
+            row = link.parent.parent
+
+        artists = []
+        # Find all artist links inside this specific row
+        artist_links = [a for a in row.find_all('a') if a.get('href') and '/artist/' in a.get('href')]
+        for a in artist_links:
+            artists.append(a.text.strip())
+
+        # Get the track title and mix
+        title = link.get('title', link.text).strip()
+
+        if artists and title:
+            artist_str = ", ".join(dict.fromkeys(artists)) # dict.fromkeys removes duplicates while keeping order
+            searches.append(f"{artist_str} - {title}")
 
     print('Search count: {}'.format(len(searches)))
-    print('First: {}'.format(searches[0]))
+    if searches:
+        print('First: {}'.format(searches[0]))
     return searches
 
 
@@ -81,6 +149,9 @@ def dedupeListOrdered(listToDedupe):
 
 
 def add_top_search_hits(ytmusic, searches, playlist):
+    if not searches:
+        print("No searches found. YouTube Music update skipped.")
+        return
     beatportIds = []
     for searchString in searches:
         search = ytmusic.search(query=searchString, filter='songs')
