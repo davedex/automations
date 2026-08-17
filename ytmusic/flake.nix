@@ -22,6 +22,7 @@
               ps.requests
               ps.beautifulsoup4
               ps.selenium
+              ps.discordpy
             ]))
           ];
         };
