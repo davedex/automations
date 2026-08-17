@@ -17,9 +17,12 @@
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
           packages = [
-            pkgs.python312Packages.python
-            # Add any other required python packages here, e.g.:
-            # pkgs.python312Packages.requests
+            (pkgs.python3.withPackages (ps: [
+              ps.ytmusicapi
+              ps.requests
+              ps.beautifulsoup4
+              ps.selenium
+            ]))
           ];
         };
       });
