@@ -3,7 +3,7 @@
 
   inputs = {
     # Pinning to a specific stable release ensures reproducibility and caches it locally
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   };
 
   outputs = { self, nixpkgs }:
