@@ -7,28 +7,28 @@ from pathlib import Path
 
 def main():
     script_dir = Path(__file__).parent.resolve()
-    oauth_file = script_dir / 'oauth.json'
-    encrypted_oauth = script_dir / 'encrypted_oauth.json'
+    browser_file = script_dir / 'browser.json'
+    encrypted_browser = script_dir / 'encrypted_browser.json'
 
-    # Decrypt encrypted_oauth.json if local oauth.json doesn't exist
-    if not oauth_file.exists():
-        if not encrypted_oauth.exists():
-            print(f"Error: {encrypted_oauth} does not exist.")
+    # Decrypt encrypted_browser.json if local browser.json doesn't exist
+    if not browser_file.exists():
+        if not encrypted_browser.exists():
+            print(f"Error: {encrypted_browser} does not exist.")
             sys.exit(1)
 
-        print("Decrypting oauth.json...")
+        print("Decrypting browser.json...")
         key_path = Path.home() / '.config/sops/age/keys.txt'
-        with open(oauth_file, 'w') as fh:
+        with open(browser_file, 'w') as fh:
             subprocess.run(
-                ['sops', '--age', str(key_path), '-d', str(encrypted_oauth)],
+                ['sops', '--age', str(key_path), '-d', str(encrypted_browser)],
                 stdout=fh,
                 check=True,
                 timeout=10
             )
     else:
-        print("Already decrypted oauth.json found")
+        print("Already decrypted browser.json found")
 
-    ytmusic = YTMusic(str(oauth_file))
+    ytmusic = YTMusic(str(browser_file))
 
     if len(sys.argv) != 2:
         print("Usage: ", sys.argv[0], "file_to_upload")

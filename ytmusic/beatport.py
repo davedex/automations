@@ -15,7 +15,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
 # beatportlist = 'PLcBZP0TaYjtG_oaPRTZrE0q2th51GCjSJ'
-beatportlist = 'VLPLcBZP0TaYjtE2angVmOcZzovA6u60_cb0'
+beatportlist = 'PLcBZP0TaYjtE2angVmOcZzovA6u60_cb0'
 
 
 def get_searches():
@@ -142,7 +142,7 @@ def get_searches():
 def delete_playlist_contents(ytmusic, playlist):
     zerolength = False
     try:
-        current_contents = ytmusic.get_playlist(playlist)['tracks']
+        current_contents = ytmusic.get_playlist(playlist, limit=None)['tracks']
         if len(current_contents) == 0:
             zerolength = True
     except KeyError as e:
@@ -183,8 +183,54 @@ def add_top_search_hits(ytmusic, searches, playlist):
 
 
 def main():
-    headers = Path(__file__).parent / 'browser.json'
-    ytmusic = YTMusic(str(headers.resolve()))
+
+#    script_dir = Path(__file__).parent.resolve()
+#    oauth_file = script_dir / 'oauth.json'
+#    encrypted_oauth = script_dir / 'encrypted_oauth.json'
+#
+#    # Decrypt encrypted_oauth.json if local oauth.json doesn't exist
+#    if not oauth_file.exists():
+#        if not encrypted_oauth.exists():
+#            print(f"Error: {encrypted_oauth} does not exist.")
+#            sys.exit(1)
+#
+#        print("Decrypting oauth.json...")
+#        key_path = Path.home() / '.config/sops/age/keys.txt'
+#        with open(oauth_file, 'w') as fh:
+#            subprocess.run(
+#                ['sops', '--age', str(key_path), '-d', str(encrypted_oauth)],
+#                stdout=fh,
+#                check=True,
+#                timeout=10
+#            )
+#    else:
+#        print("Already decrypted oauth.json found")
+#
+#    ytmusic = YTMusic(auth=str(oauth_file), oauth_credentials=str(oauth_file))
+
+     
+    script_dir = Path(__file__).parent.resolve()
+    browser_file = script_dir / 'browser.json'
+    encrypted_browser = script_dir / 'encrypted_browser.json'
+
+    if not browser_file.exists():
+        if not encrypted_browser.exists():
+            print(f"Error: {encrypted_browser} does not exist.")
+            sys.exit(1)
+
+        print("Decrypting browser.json...")
+        key_path = Path.home() / '.config/sops/age/keys.txt'
+        with open(browser_file, 'w') as fh:
+            subprocess.run(
+                ['sops', '--age', str(key_path), '-d', str(encrypted_browser)],
+                stdout=fh,
+                check=True,
+                timeout=10
+            )
+    else:
+        print("Already decrypted browser.json found")
+
+    ytmusic = YTMusic(str(browser_file))
 
     searches = get_searches()
     print(len(searches))
