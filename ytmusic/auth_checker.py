@@ -14,7 +14,7 @@ def main():
     ytmusic._check_auth()
 
     # Read the like songs. Make sure liked is greater than 800 songs
-    liked = ytmusic.get_liked_songs() 
+    liked = ytmusic.get_liked_songs()
     if liked['trackCount'] < 800:
         message = """Authentication seems problematic.
                      Rerun browser authentication (perhaps in the ytmusic venv in wsl on the thinkpad)

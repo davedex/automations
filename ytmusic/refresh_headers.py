@@ -30,7 +30,7 @@ def send_discord_message(message: str):
         channel_id = 1330828675847028819
         intents = discord.Intents.default()
         intents.messages = True
-        
+
         bot = commands.Bot(command_prefix='!', intents=intents)
 
         @bot.event
@@ -132,10 +132,10 @@ def main():
     try:
         print("Navigating to YouTube Music to trigger requests...")
         driver.get("https://music.youtube.com")
-        
+
         print("Waiting 12 seconds for the feed to load and API requests to execute...")
         time.sleep(12)
-        
+
         print("Taking debug screenshot to verify login state...")
         driver.save_screenshot(str(debug_screenshot_path))
 
@@ -160,11 +160,11 @@ def main():
                 if log_data.get('method') == 'Network.requestWillBeSent':
                     request = log_data.get('params', {}).get('request', {})
                     url = request.get('url', '')
-                    
+
                     if 'youtubei/v1/' in url:
                         headers = request.get('headers', {})
                         h_lower = {k.lower(): v for k, v in headers.items()}
-                        
+
                         # We only need to find the Authorization header here
                         if 'authorization' in h_lower:
                             # Prioritize the /browse endpoint specifically
@@ -183,12 +183,12 @@ def main():
 
         if not browse_request_headers:
             print("Error: Failed to intercept any authenticated requests to youtubei/v1/ API.", file=sys.stderr)
-            
+
             # Dump raw logs to see what was actually captured
             print(f"Dumping raw performance logs for debugging to {debug_log_path}", file=sys.stderr)
             with open(debug_log_path, 'w') as f:
                 json.dump([json.loads(e['message']) for e in logs], f, indent=2)
-                
+
             print("Please ensure you are fully authenticated in Chromium.", file=sys.stderr)
             sys.exit(1)
 
@@ -196,7 +196,7 @@ def main():
 
         # Map to standard browser.json format used by ytmusicapi
         h_lower = {k.lower(): v for k, v in browse_request_headers.items()}
-        
+
         auth_header = h_lower.get("authorization")
         if not auth_header:
             print("Error: Missing crucial Authorization request header in performance logs.", file=sys.stderr)

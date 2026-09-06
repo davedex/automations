@@ -34,7 +34,7 @@ def send_discord_message(message: str):
         channel_id = 1330828675847028819
         intents = discord.Intents.default()
         intents.messages = True
-        
+
         bot = commands.Bot(command_prefix='!', intents=intents)
 
         @bot.event
@@ -248,7 +248,7 @@ def main():
 #
 #    ytmusic = YTMusic(auth=str(oauth_file), oauth_credentials=str(oauth_file))
 
-     
+
     script_dir = Path(__file__).parent.resolve()
     browser_file = script_dir / 'browser.json'
     encrypted_browser = script_dir / 'encrypted_browser.json'
@@ -271,7 +271,7 @@ def main():
                 check=True,
                 timeout=10
             )
-        
+
         ytmusic = YTMusic(str(browser_file))
     finally:
         # Clean up unencrypted file immediately to maintain strict system security
@@ -282,10 +282,10 @@ def main():
         searches = get_searches()
         track_count = len(searches)
         print(track_count)
-        
+
         delete_playlist_contents(ytmusic, beatportlist)
         add_top_search_hits(ytmusic, searches, beatportlist)
-        
+
         # Notify Discord of success
         send_discord_message(f"✅ **Beatport Top 100 Sync Successful!**\nSuccessfully synced {track_count} tracks to playlist.")
     except Exception as e:

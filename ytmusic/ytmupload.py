@@ -24,7 +24,7 @@ def send_discord_message(message: str):
         channel_id = 1330828675847028819
         intents = discord.Intents.default()
         intents.messages = True
-        
+
         bot = commands.Bot(command_prefix='!', intents=intents)
 
         @bot.event
@@ -74,7 +74,7 @@ def main():
                 check=True,
                 timeout=10
             )
-        
+
         ytmusic = YTMusic(str(browser_file))
     finally:
         # Clean up unencrypted file immediately to maintain strict system security
@@ -90,7 +90,7 @@ def main():
         try:
             print(f"Uploading: {filepath}")
             response = ytmusic.upload_song(str(p))
-            
+
             # Check for upload failure states to ensure systemd catches errors
             if isinstance(response, str) and "STATUS_FAILED" in response:
                 print(f"Upload failed for {filename}: {response}")
@@ -113,7 +113,7 @@ def main():
             msg_parts.append("\n❌ **Failed Uploads:**")
             for f, err in failed_uploads:
                 msg_parts.append(f"- `{f}` (Error: `{err}`)")
-                
+
         send_discord_message("\n".join(msg_parts))
 
     # Exit with error if any uploads failed

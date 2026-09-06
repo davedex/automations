@@ -24,7 +24,7 @@ def send_discord_message(message: str):
         channel_id = 1330828675847028819
         intents = discord.Intents.default()
         intents.messages = True
-        
+
         bot = commands.Bot(command_prefix='!', intents=intents)
 
         @bot.event
@@ -78,7 +78,7 @@ def main():
                 check=True,
                 timeout=10
             )
-        
+
         ytmusic = YTMusic(str(browser_file))
     finally:
         # Clean up unencrypted file immediately to maintain strict system security
