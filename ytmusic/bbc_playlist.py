@@ -20,14 +20,17 @@ def main():
     browser_file = script_dir / 'browser.json'
     encrypted_browser = script_dir / 'encrypted_browser.json'
 
-    # Decrypt encrypted_browser.json if local browser.json doesn't exist
-    if not browser_file.exists():
-        if not encrypted_browser.exists():
-            print(f"Error: {encrypted_browser} does not exist.")
-            sys.exit(1)
+    # Always ensure a clean start to avoid race conditions or stale credentials
+    if browser_file.exists():
+        browser_file.unlink()
 
-        print("Decrypting browser.json...")
-        key_path = Path.home() / '.config/sops/age/keys.txt'
+    if not encrypted_browser.exists():
+        print(f"Error: {encrypted_browser} does not exist.")
+        sys.exit(1)
+
+    print("Decrypting browser.json...")
+    key_path = Path.home() / '.config/sops/age/keys.txt'
+    try:
         with open(browser_file, 'w') as fh:
             subprocess.run(
                 ['sops', '--age', str(key_path), '-d', str(encrypted_browser)],
@@ -35,10 +38,12 @@ def main():
                 check=True,
                 timeout=10
             )
-    else:
-        print("Already decrypted browser.json found")
-
-    ytmusic = YTMusic(str(browser_file))
+        
+        ytmusic = YTMusic(str(browser_file))
+    finally:
+        # Clean up unencrypted file immediately to maintain strict system security
+        if browser_file.exists():
+            browser_file.unlink()
 
     # Clear current contents of the playlist safely
     try:
