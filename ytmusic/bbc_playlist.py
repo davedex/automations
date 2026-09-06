@@ -1,6 +1,8 @@
 #!/usr/bin/python
-from ytmusicapi import YTMusic
+import subprocess
+import sys
 from pathlib import Path
+from ytmusicapi import YTMusic
 
 beebplaylist = 'PLcBZP0TaYjtGyqhwng66iAC94flzjXqdZ'
 tong_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIOcGV0ZSB0b25nIDIwMjYaCXBldGUgdG9uZyINaHR0cCB1cGxvYWRlcg'
@@ -14,33 +16,66 @@ presents_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOq
 
 
 def main():
-    headers = Path(__file__).parent / 'browser.json'
-    ytmusic = YTMusic(str(headers.resolve()))
-    zerolength = False
+    script_dir = Path(__file__).parent.resolve()
+    browser_file = script_dir / 'browser.json'
+    encrypted_browser = script_dir / 'encrypted_browser.json'
+
+    # Decrypt encrypted_browser.json if local browser.json doesn't exist
+    if not browser_file.exists():
+        if not encrypted_browser.exists():
+            print(f"Error: {encrypted_browser} does not exist.")
+            sys.exit(1)
+
+        print("Decrypting browser.json...")
+        key_path = Path.home() / '.config/sops/age/keys.txt'
+        with open(browser_file, 'w') as fh:
+            subprocess.run(
+                ['sops', '--age', str(key_path), '-d', str(encrypted_browser)],
+                stdout=fh,
+                check=True,
+                timeout=10
+            )
+    else:
+        print("Already decrypted browser.json found")
+
+    ytmusic = YTMusic(str(browser_file))
+
+    # Clear current contents of the playlist safely
     try:
-        current_contents = ytmusic.get_playlist(beebplaylist)['tracks']
-        if len(current_contents) == 0:
-            zerolength = True
-    except KeyError as e:
-        zerolength = True
-        print(e)
-    if not zerolength:
-        ytmusic.remove_playlist_items(beebplaylist, current_contents)
+        playlist_info = ytmusic.get_playlist(beebplaylist, limit=None)
+        current_contents = playlist_info.get('tracks', [])
+        if current_contents:
+            print(f"Clearing {len(current_contents)} tracks from playlist...")
+            ytmusic.remove_playlist_items(beebplaylist, current_contents)
+    except Exception as e:
+        print(f"Warning: Failed to clear playlist contents: {e}")
+
     latest = []
-    #for album in [tong_album, howard_album, future_album, clubmix_album, essentialmix_album, residency_album]:
+    # For each album, fetch the tracks and grab the latest uploads safely
     for album in [tong_album, howard_album, future_album, tongmix_album, clubmix_album, essentialmix_album, residency_album, presents_album]:
-        ytalbum = ytmusic.get_library_upload_album(album)
-        if 'tracks' in ytalbum:
-            tracks = ytalbum['tracks']
-            two_track_albums = {presents_album, residency_album}
-            if album in two_track_albums and len(tracks) > 1:
-                latest.append(tracks[-2]['videoId'])
-            latest.append(tracks[-1]['videoId'])
-        else:
-            print(f"No tracks in {album}")
-    print(latest)
-    result = ytmusic.add_playlist_items(beebplaylist, latest)
-    print(result)
+        try:
+            ytalbum = ytmusic.get_library_upload_album(album)
+            if 'tracks' in ytalbum:
+                tracks = ytalbum['tracks']
+                if not tracks:
+                    print(f"No tracks in {album}")
+                    continue
+
+                two_track_albums = {presents_album, residency_album}
+                if album in two_track_albums and len(tracks) > 1:
+                    latest.append(tracks[-2]['videoId'])
+                latest.append(tracks[-1]['videoId'])
+            else:
+                print(f"No tracks list in album {album}")
+        except Exception as e:
+            print(f"Error fetching album {album}: {e}")
+
+    if latest:
+        print(f"Adding tracks to playlist: {latest}")
+        result = ytmusic.add_playlist_items(beebplaylist, latest)
+        print(result)
+    else:
+        print("No tracks found to add to playlist.")
 
 
 if __name__ == "__main__":

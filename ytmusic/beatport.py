@@ -1,8 +1,8 @@
 #!/usr/bin/python
 import os
+import subprocess
 import sys
 import time
-import requests
 from datetime import datetime
 from pathlib import Path
 from ytmusicapi import YTMusic
