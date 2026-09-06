@@ -57,7 +57,8 @@ presents_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOq
 
 def main():
     script_dir = Path(__file__).parent.resolve()
-    browser_file = script_dir / 'browser.json'
+    import uuid
+    browser_file = script_dir / f'browser_temp_{uuid.uuid4().hex}.json'
     encrypted_browser = script_dir / 'encrypted_browser.json'
 
     # Always ensure a clean start to avoid race conditions or stale credentials
