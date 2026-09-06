@@ -30,11 +30,20 @@ def get_searches():
 
     else:
         print("Logfile not found. Starting browser scrape...")
+
+        # Read paths from shellHook or default to None
+        chromedriver_path = os.environ.get("CHROMEDRIVER_PATH")
+        chrome_binary_path = os.environ.get("CHROME_BIN")
+
         options = Options()
         options.add_argument("--headless=new")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-gpu")
         options.add_argument("--window-size=1920,1080")
+
+        if chrome_binary_path:
+            options.binary_location = chrome_binary_path
+
 
         # --- NEW STEALTH SETTINGS ---
         # 1. Disable the "Automation" flag that Cloudflare looks for
@@ -45,7 +54,9 @@ def get_searches():
         user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
         options.add_argument(f"user-agent={user_agent}")
 
-        driver = webdriver.Chrome(options=options)
+        service = Service(executable_path=chromedriver_path) if chromedriver_path else None
+
+        driver = webdriver.Chrome(service=service, options=options)
 
         # 3. Use JavaScript to remove the 'webdriver' property entirely
         driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {

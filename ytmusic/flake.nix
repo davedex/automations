@@ -17,6 +17,8 @@
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
           packages = [
+            pkgs.chromium
+            pkgs.chromedriver
             (pkgs.python3.withPackages (ps: [
               ps.ytmusicapi
               ps.requests
