@@ -10,6 +10,46 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 
+def send_discord_message(message: str):
+    token_file = Path('/run/user/1000/secrets/discord_bot_token')
+    if not token_file.exists():
+        print(f"Warning: Discord token file not found at {token_file}. Skipping notification.")
+        return
+
+    try:
+        import discord
+        from discord.ext import commands
+    except ImportError:
+        print("Warning: discord.py package not found. Skipping notification.")
+        return
+
+    try:
+        with open(token_file, 'r') as file:
+            token = file.read().strip()
+
+        channel_id = 1330828675847028819
+        intents = discord.Intents.default()
+        intents.messages = True
+        
+        bot = commands.Bot(command_prefix='!', intents=intents)
+
+        @bot.event
+        async def on_ready():
+            print(f"Logged into Discord as {bot.user.name}")
+            channel = bot.get_channel(channel_id)
+            if channel:
+                print(f"Sending Discord message to channel {channel_id}...")
+                await channel.send(message)
+            else:
+                print(f"Error: Discord channel {channel_id} not found.")
+            await bot.close()
+
+        print("Starting Discord bot client...")
+        bot.run(token)
+        print("Discord notification sent and bot disconnected.")
+    except Exception as e:
+        print(f"Warning: Failed to send Discord notification: {e}", file=sys.stderr)
+
 def main():
     script_dir = Path(__file__).parent.resolve()
     browser_file = script_dir / 'browser.json'
@@ -211,8 +251,11 @@ def main():
             debug_log_path.unlink()
 
         print("Success! encrypted_browser.json has been refreshed and secure credentials saved.")
+        send_discord_message("✅ **YouTube Music Headers Refreshed Successfully!**\nNew session credentials have been extracted and encrypted via SOPS on `dexnix`.")
 
     except Exception as e:
+        error_msg = f"❌ **YouTube Music Header Refresh FAILED on `dexnix`!**\nError: `{e}`\n*Please check systemd journal logs for details.*"
+        send_discord_message(error_msg)
         print(f"Error executing header refresh: {e}", file=sys.stderr)
         # Attempt to clean up raw browser.json on error
         try:

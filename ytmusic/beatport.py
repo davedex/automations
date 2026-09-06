@@ -14,6 +14,46 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
+def send_discord_message(message: str):
+    token_file = Path('/run/user/1000/secrets/discord_bot_token')
+    if not token_file.exists():
+        print(f"Warning: Discord token file not found at {token_file}. Skipping notification.")
+        return
+
+    try:
+        import discord
+        from discord.ext import commands
+    except ImportError:
+        print("Warning: discord.py package not found. Skipping notification.")
+        return
+
+    try:
+        with open(token_file, 'r') as file:
+            token = file.read().strip()
+
+        channel_id = 1330828675847028819
+        intents = discord.Intents.default()
+        intents.messages = True
+        
+        bot = commands.Bot(command_prefix='!', intents=intents)
+
+        @bot.event
+        async def on_ready():
+            print(f"Logged into Discord as {bot.user.name}")
+            channel = bot.get_channel(channel_id)
+            if channel:
+                print(f"Sending Discord message to channel {channel_id}...")
+                await channel.send(message)
+            else:
+                print(f"Error: Discord channel {channel_id} not found.")
+            await bot.close()
+
+        print("Starting Discord bot client...")
+        bot.run(token)
+        print("Discord notification sent and bot disconnected.")
+    except Exception as e:
+        print(f"Warning: Failed to send Discord notification: {e}", file=sys.stderr)
+
 # beatportlist = 'PLcBZP0TaYjtG_oaPRTZrE0q2th51GCjSJ'
 beatportlist = 'PLcBZP0TaYjtE2angVmOcZzovA6u60_cb0'
 
@@ -238,10 +278,20 @@ def main():
         if browser_file.exists():
             browser_file.unlink()
 
-    searches = get_searches()
-    print(len(searches))
-    delete_playlist_contents(ytmusic, beatportlist)
-    add_top_search_hits(ytmusic, searches, beatportlist)
+    try:
+        searches = get_searches()
+        track_count = len(searches)
+        print(track_count)
+        
+        delete_playlist_contents(ytmusic, beatportlist)
+        add_top_search_hits(ytmusic, searches, beatportlist)
+        
+        # Notify Discord of success
+        send_discord_message(f"✅ **Beatport Top 100 Sync Successful!**\nSuccessfully synced {track_count} tracks to playlist.")
+    except Exception as e:
+        # Notify Discord of failure
+        send_discord_message(f"❌ **Beatport Top 100 Sync FAILED!**\nError: `{e}`")
+        raise e
 
 
 if __name__ == "__main__":

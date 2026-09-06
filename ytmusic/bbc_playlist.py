@@ -4,6 +4,46 @@ import sys
 from pathlib import Path
 from ytmusicapi import YTMusic
 
+def send_discord_message(message: str):
+    token_file = Path('/run/user/1000/secrets/discord_bot_token')
+    if not token_file.exists():
+        print(f"Warning: Discord token file not found at {token_file}. Skipping notification.")
+        return
+
+    try:
+        import discord
+        from discord.ext import commands
+    except ImportError:
+        print("Warning: discord.py package not found. Skipping notification.")
+        return
+
+    try:
+        with open(token_file, 'r') as file:
+            token = file.read().strip()
+
+        channel_id = 1330828675847028819
+        intents = discord.Intents.default()
+        intents.messages = True
+        
+        bot = commands.Bot(command_prefix='!', intents=intents)
+
+        @bot.event
+        async def on_ready():
+            print(f"Logged into Discord as {bot.user.name}")
+            channel = bot.get_channel(channel_id)
+            if channel:
+                print(f"Sending Discord message to channel {channel_id}...")
+                await channel.send(message)
+            else:
+                print(f"Error: Discord channel {channel_id} not found.")
+            await bot.close()
+
+        print("Starting Discord bot client...")
+        bot.run(token)
+        print("Discord notification sent and bot disconnected.")
+    except Exception as e:
+        print(f"Warning: Failed to send Discord notification: {e}", file=sys.stderr)
+
 beebplaylist = 'PLcBZP0TaYjtGyqhwng66iAC94flzjXqdZ'
 tong_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIOcGV0ZSB0b25nIDIwMjYaCXBldGUgdG9uZyINaHR0cCB1cGxvYWRlcg'
 residency_album = 'FEmusic_library_privately_owned_release_detailb_po_COTTzu7ExOqlYRIfcmVzaWRlbmN5IG9uIHJhZGlvIDEgZGFuY2UgMjAyNhoacmVzaWRlbmN5IG9uIHJhZGlvIDEgZGFuY2UiDWh0dHAgdXBsb2FkZXI'
@@ -45,42 +85,48 @@ def main():
         if browser_file.exists():
             browser_file.unlink()
 
-    # Clear current contents of the playlist safely
     try:
-        playlist_info = ytmusic.get_playlist(beebplaylist, limit=None)
-        current_contents = playlist_info.get('tracks', [])
-        if current_contents:
-            print(f"Clearing {len(current_contents)} tracks from playlist...")
-            ytmusic.remove_playlist_items(beebplaylist, current_contents)
-    except Exception as e:
-        print(f"Warning: Failed to clear playlist contents: {e}")
-
-    latest = []
-    # For each album, fetch the tracks and grab the latest uploads safely
-    for album in [tong_album, howard_album, future_album, tongmix_album, clubmix_album, essentialmix_album, residency_album, presents_album]:
+        # Clear current contents of the playlist safely
         try:
-            ytalbum = ytmusic.get_library_upload_album(album)
-            if 'tracks' in ytalbum:
-                tracks = ytalbum['tracks']
-                if not tracks:
-                    print(f"No tracks in {album}")
-                    continue
-
-                two_track_albums = {presents_album, residency_album}
-                if album in two_track_albums and len(tracks) > 1:
-                    latest.append(tracks[-2]['videoId'])
-                latest.append(tracks[-1]['videoId'])
-            else:
-                print(f"No tracks list in album {album}")
+            playlist_info = ytmusic.get_playlist(beebplaylist, limit=None)
+            current_contents = playlist_info.get('tracks', [])
+            if current_contents:
+                print(f"Clearing {len(current_contents)} tracks from playlist...")
+                ytmusic.remove_playlist_items(beebplaylist, current_contents)
         except Exception as e:
-            print(f"Error fetching album {album}: {e}")
+            print(f"Warning: Failed to clear playlist contents: {e}")
 
-    if latest:
-        print(f"Adding tracks to playlist: {latest}")
-        result = ytmusic.add_playlist_items(beebplaylist, latest)
-        print(result)
-    else:
-        print("No tracks found to add to playlist.")
+        latest = []
+        # For each album, fetch the tracks and grab the latest uploads safely
+        for album in [tong_album, howard_album, future_album, tongmix_album, clubmix_album, essentialmix_album, residency_album, presents_album]:
+            try:
+                ytalbum = ytmusic.get_library_upload_album(album)
+                if 'tracks' in ytalbum:
+                    tracks = ytalbum['tracks']
+                    if not tracks:
+                        print(f"No tracks in {album}")
+                        continue
+
+                    two_track_albums = {presents_album, residency_album}
+                    if album in two_track_albums and len(tracks) > 1:
+                        latest.append(tracks[-2]['videoId'])
+                    latest.append(tracks[-1]['videoId'])
+                else:
+                    print(f"No tracks list in album {album}")
+            except Exception as e:
+                print(f"Error fetching album {album}: {e}")
+
+        if latest:
+            print(f"Adding tracks to playlist: {latest}")
+            result = ytmusic.add_playlist_items(beebplaylist, latest)
+            print(result)
+            send_discord_message(f"✅ **BBC Playlist Sync Successful!**\nSuccessfully synced {len(latest)} tracks to BBC Playlist.")
+        else:
+            print("No tracks found to add to playlist.")
+            send_discord_message("⚠️ **BBC Playlist Sync Completed**\nNo tracks were found to add to the playlist.")
+    except Exception as e:
+        send_discord_message(f"❌ **BBC Playlist Sync FAILED!**\nError: `{e}`")
+        raise e
 
 
 if __name__ == "__main__":
