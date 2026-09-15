@@ -1,7 +1,7 @@
 {
-  "max_time": 1788698390,
-  "count": 1801,
-  "saved_at": 1788707674,
+  "max_time": 1789405935,
+  "count": 1881,
+  "saved_at": 1789478724,
   "scrobbles": [
     {
       "inserted_at": 1783696239,
@@ -53988,6 +53988,2566 @@
         },
         "artist_name": "Highlights",
         "track_name": "Asia Pacific Lions v Northampton Saints"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1788793145,
+      "listened_at": 1788792912,
+      "recording_msid": "a572e1e0-7432-4164-bf6e-cbe10d4084dc",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "a572e1e0-7432-4164-bf6e-cbe10d4084dc",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Ibiza Is Calling",
+        "release_name": "Pete Tong - 2026",
+        "track_name": "Pete Tong: Ibiza Is Calling and GENESI - 2026-09-04"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1788787177,
+      "listened_at": 1788786539,
+      "recording_msid": "a572e1e0-7432-4164-bf6e-cbe10d4084dc",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "a572e1e0-7432-4164-bf6e-cbe10d4084dc",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Ibiza Is Calling",
+        "release_name": "Pete Tong - 2026",
+        "track_name": "Pete Tong: Ibiza Is Calling and GENESI - 2026-09-04"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1788773537,
+      "listened_at": 1788773296,
+      "recording_msid": "a572e1e0-7432-4164-bf6e-cbe10d4084dc",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "a572e1e0-7432-4164-bf6e-cbe10d4084dc",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Ibiza Is Calling",
+        "release_name": "Pete Tong - 2026",
+        "track_name": "Pete Tong: Ibiza Is Calling and GENESI - 2026-09-04"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1788896942,
+      "listened_at": 1788896701,
+      "recording_msid": "a572e1e0-7432-4164-bf6e-cbe10d4084dc",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "a572e1e0-7432-4164-bf6e-cbe10d4084dc",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Ibiza Is Calling",
+        "release_name": "Pete Tong - 2026",
+        "track_name": "Pete Tong: Ibiza Is Calling and GENESI - 2026-09-04"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1788955449,
+      "listened_at": 1788954831,
+      "recording_msid": "831f2138-9c85-4f66-8589-99155e5aabe6",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 222000,
+          "recording_msid": "831f2138-9c85-4f66-8589-99155e5aabe6",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Kolter",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "c2b3c551-e673-46fe-bbee-5fd94d00d903"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kolter",
+              "artist_mbid": "c2b3c551-e673-46fe-bbee-5fd94d00d903",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 45605622367,
+          "caa_release_mbid": "811734b4-4561-45f7-a45c-754de4c27e41",
+          "recording_mbid": "64a1bcf7-ae8f-4605-8225-4685feaf279a",
+          "recording_name": "Trapped (radio-edit)",
+          "release_group_mbid": "3cafa206-34b8-4107-b1b2-2b099acc1071",
+          "release_mbid": "811734b4-4561-45f7-a45c-754de4c27e41"
+        },
+        "release_name": "What Did You Come For ?",
+        "track_name": "Trapped (Radio-Edit)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1788955342,
+      "listened_at": 1788936859,
+      "recording_msid": "2f7da04a-be11-4247-b88f-a4c358033fb7",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 187000,
+          "recording_msid": "2f7da04a-be11-4247-b88f-a4c358033fb7",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Green Velvet",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e425b041-c28a-4ae8-9d5c-997890433cd4"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Green Velvet",
+              "artist_mbid": "e425b041-c28a-4ae8-9d5c-997890433cd4",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 26533087000,
+          "caa_release_mbid": "d587f401-74df-4e55-b761-80356ff2669a",
+          "recording_mbid": "a4aa0d85-225c-494b-8486-6aaff3916663",
+          "recording_name": "La La Land",
+          "release_group_mbid": "2a1532d0-f2df-37bf-b521-49a5bddf0210",
+          "release_mbid": "1194e91c-a734-3a4e-9248-9cd2ee540873"
+        },
+        "track_name": "La La Land"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1788936770,
+      "listened_at": 1788936679,
+      "recording_msid": "65981506-dc24-49c9-ae0f-530e6a74dedf",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 182000,
+          "recording_msid": "65981506-dc24-49c9-ae0f-530e6a74dedf",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Rooléh",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e44a620c-4321-4c4e-b7c7-51d3524efb2f"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Rooléh",
+              "artist_mbid": "e44a620c-4321-4c4e-b7c7-51d3524efb2f",
+              "join_phrase": ""
+            }
+          ],
+          "recording_mbid": "909a7c07-4038-43c8-a895-150a478d8ee7",
+          "recording_name": "Want To Know"
+        },
+        "release_name": "Want To Know",
+        "track_name": "Want To Know"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1788936495,
+      "listened_at": 1788936312,
+      "recording_msid": "4930a84b-566c-4c4e-b17e-e895108027f5",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 364000,
+          "recording_msid": "4930a84b-566c-4c4e-b17e-e895108027f5",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Claude VonStroke",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "c5439b13-b62b-4377-a2fb-1888ae85d498"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Claude VonStroke",
+              "artist_mbid": "c5439b13-b62b-4377-a2fb-1888ae85d498",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 25737055164,
+          "caa_release_mbid": "fecbc7d6-7af4-4d3e-a8a4-0b8ba39c778f",
+          "recording_mbid": "dac1601c-ef68-453a-b776-c9a0b102bc30",
+          "recording_name": "Who's Afraid of Detroit?",
+          "release_group_mbid": "0b983dbd-b37c-3d96-91db-cb055a0fb882",
+          "release_mbid": "8dfa8b47-a5b2-4956-85e0-7c5802284225"
+        },
+        "release_name": "Beware Of The Bird",
+        "track_name": "Who's Afraid Of Detroit?"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1788935950,
+      "listened_at": 1788935655,
+      "recording_msid": "a572e1e0-7432-4164-bf6e-cbe10d4084dc",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "a572e1e0-7432-4164-bf6e-cbe10d4084dc",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Ibiza Is Calling",
+        "release_name": "Pete Tong - 2026",
+        "track_name": "Pete Tong: Ibiza Is Calling and GENESI - 2026-09-04"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789157860,
+      "listened_at": 1789157728,
+      "recording_msid": "5f5a54df-267f-4eb8-85e5-fc2270abd258",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 259000,
+          "recording_msid": "5f5a54df-267f-4eb8-85e5-fc2270abd258",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "WhoMadeWho",
+        "release_name": "Heartless",
+        "track_name": "Heartless"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789157591,
+      "listened_at": 1789157447,
+      "recording_msid": "46dbe9da-7e45-42a7-8327-b32e3a95621a",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 282000,
+          "recording_msid": "46dbe9da-7e45-42a7-8327-b32e3a95621a",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Télépopmusik",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "265f242e-cf4e-4fbe-a3fe-43112387172f"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Télépopmusik",
+              "artist_mbid": "265f242e-cf4e-4fbe-a3fe-43112387172f",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 1047944852,
+          "caa_release_mbid": "6861a3c0-63aa-4bf9-b170-b8be7dd9e6bb",
+          "recording_mbid": "7bcf8f24-38bb-4e27-87a8-8e036854f8cc",
+          "recording_name": "Breathe",
+          "release_group_mbid": "c860d21b-c9bc-3c6b-a119-341e54a24e47",
+          "release_mbid": "dcdc934a-4f90-3306-a9aa-bd874c404062",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/0uKrhHBDUQ4w5fv4qwOubP"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/1421640102"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/gb/song/1574209389"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/gb/song/1574209389"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://music.youtube.com/watch?v=kWeAzbWdmTw"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/189694507"
+            }
+          ]
+        },
+        "release_name": "Genetic World",
+        "track_name": "Breathe (feat. Angela McCluskey)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789157377,
+      "listened_at": 1789157301,
+      "recording_msid": "84d1d906-b49f-43e6-a3d4-cd5b3f71f3b3",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 145000,
+          "recording_msid": "84d1d906-b49f-43e6-a3d4-cd5b3f71f3b3",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Adriatique",
+        "release_name": "RACER",
+        "track_name": "RACER"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789156944,
+      "listened_at": 1789156705,
+      "recording_msid": "ad9199dd-186e-4930-a2fa-6e2e9680dbc8",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 596000,
+          "recording_msid": "ad9199dd-186e-4930-a2fa-6e2e9680dbc8",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Schiller",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "75ebdfa0-4a8a-496a-a57f-e4bb93b14d4c"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Schiller",
+              "artist_mbid": "75ebdfa0-4a8a-496a-a57f-e4bb93b14d4c",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 16044849512,
+          "caa_release_mbid": "523c090d-38eb-4e8e-8afc-c42249e8907c",
+          "recording_mbid": "98b854d6-5261-44f4-a111-1142d30c4a6b",
+          "recording_name": "Ruhe (Humate remix)",
+          "release_group_mbid": "03216374-322b-38cc-a1c7-73f21c0d47f2",
+          "release_mbid": "9f84af77-0426-4087-8015-4a38b471ccf3"
+        },
+        "release_name": "Zeitreise - Das Beste von Schiller",
+        "track_name": "Ruhe (Humate Remix)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789156537,
+      "listened_at": 1789142302,
+      "recording_msid": "5f6c00e9-7e2b-4966-bf1b-d1cfa4ddbaa1",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 343000,
+          "recording_msid": "5f6c00e9-7e2b-4966-bf1b-d1cfa4ddbaa1",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Jackie (IT)",
+        "release_name": "Sexy M.F.",
+        "track_name": "Sexy M.F. (Extended Mix)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789142187,
+      "listened_at": 1789142071,
+      "recording_msid": "8ea2ea07-666b-40ae-8095-84d136ec22b7",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 230000,
+          "recording_msid": "8ea2ea07-666b-40ae-8095-84d136ec22b7",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Lovebirds",
+        "release_name": "Want You In My Soul [Radio Edit]",
+        "track_name": "Want You In My Soul [Radio Edit] (feat. Stee Downes)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789142158,
+      "listened_at": 1789141844,
+      "recording_msid": "19c9f791-fb02-49c8-b2fe-fbd50fcc432f",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 227000,
+          "recording_msid": "19c9f791-fb02-49c8-b2fe-fbd50fcc432f",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Jimi Jules",
+        "release_name": "Whisper To Me",
+        "track_name": "Whisper To Me"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789141774,
+      "listened_at": 1789141702,
+      "recording_msid": "5f55d909-05c4-4a5d-aac1-22ad158871a4",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 142000,
+          "recording_msid": "5f55d909-05c4-4a5d-aac1-22ad158871a4",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "HUGEL",
+        "release_name": "Twenty One",
+        "track_name": "Movin' To The Sun"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789141490,
+      "listened_at": 1789141374,
+      "recording_msid": "42ba0be7-df71-4adb-8821-f772f3dc580e",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 232000,
+          "recording_msid": "42ba0be7-df71-4adb-8821-f772f3dc580e",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Xpansions",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "7c59fcf7-8fe7-4871-9f2a-ba4fdb614c1a"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Xpansions",
+              "artist_mbid": "7c59fcf7-8fe7-4871-9f2a-ba4fdb614c1a",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 22105131581,
+          "caa_release_mbid": "0fd6b18c-0518-4de3-8bdc-9c884fbeff4a",
+          "recording_mbid": "20d420f3-b2b9-4ba2-803f-9f8bb2375537",
+          "recording_name": "Move Your Body",
+          "release_group_mbid": "15b93ccd-593d-3e72-831a-2b9b3b5c8909",
+          "release_mbid": "0fd6b18c-0518-4de3-8bdc-9c884fbeff4a"
+        },
+        "release_name": "Move Your Body (Elevation) - EP",
+        "track_name": "Move Your Body"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789141222,
+      "listened_at": 1789141069,
+      "recording_msid": "e0f63e58-1ef0-48c8-adb2-3795d1b1b5f5",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 305000,
+          "recording_msid": "e0f63e58-1ef0-48c8-adb2-3795d1b1b5f5",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Benny Benassi",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "674bf89f-8e70-4472-929d-6b4ed6f98c88"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Benny Benassi",
+              "artist_mbid": "674bf89f-8e70-4472-929d-6b4ed6f98c88",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 32638759251,
+          "caa_release_mbid": "742b0aff-803e-3a70-bc6f-72fa8853e256",
+          "recording_mbid": "3d1cb154-e51a-4c10-8f77-f7a475d73959",
+          "recording_name": "Love Is Gonna Save Us",
+          "release_group_mbid": "f574c1f4-6d86-3802-b5fd-09323164cd0d",
+          "release_mbid": "d7096977-da82-4bd4-9156-23385e772ab5"
+        },
+        "release_name": "Hypnotica (UK Edition)",
+        "track_name": "Love is Gonna Save Us"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789140992,
+      "listened_at": 1789140909,
+      "recording_msid": "ad1624f1-c79d-43d5-a695-14897e70e664",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 160000,
+          "recording_msid": "ad1624f1-c79d-43d5-a695-14897e70e664",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Josh Baker",
+        "release_name": "My Place",
+        "track_name": "My Place"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789140800,
+      "listened_at": 1789140687,
+      "recording_msid": "831f2138-9c85-4f66-8589-99155e5aabe6",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 222000,
+          "recording_msid": "831f2138-9c85-4f66-8589-99155e5aabe6",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Kolter",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "c2b3c551-e673-46fe-bbee-5fd94d00d903"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kolter",
+              "artist_mbid": "c2b3c551-e673-46fe-bbee-5fd94d00d903",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 45605622367,
+          "caa_release_mbid": "811734b4-4561-45f7-a45c-754de4c27e41",
+          "recording_mbid": "64a1bcf7-ae8f-4605-8225-4685feaf279a",
+          "recording_name": "Trapped (radio-edit)",
+          "release_group_mbid": "3cafa206-34b8-4107-b1b2-2b099acc1071",
+          "release_mbid": "811734b4-4561-45f7-a45c-754de4c27e41"
+        },
+        "release_name": "What Did You Come For ?",
+        "track_name": "Trapped (Radio-Edit)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789140593,
+      "listened_at": 1789140499,
+      "recording_msid": "8e002cb5-6ab4-46bd-931a-8cb1184065fb",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 187000,
+          "recording_msid": "8e002cb5-6ab4-46bd-931a-8cb1184065fb",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Green Velvet",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e425b041-c28a-4ae8-9d5c-997890433cd4"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Green Velvet",
+              "artist_mbid": "e425b041-c28a-4ae8-9d5c-997890433cd4",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 26533087000,
+          "caa_release_mbid": "d587f401-74df-4e55-b761-80356ff2669a",
+          "recording_mbid": "a4aa0d85-225c-494b-8486-6aaff3916663",
+          "recording_name": "La La Land",
+          "release_group_mbid": "2a1532d0-f2df-37bf-b521-49a5bddf0210",
+          "release_mbid": "1194e91c-a734-3a4e-9248-9cd2ee540873"
+        },
+        "release_name": "La La Land",
+        "track_name": "La La Land"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789140427,
+      "listened_at": 1789140334,
+      "recording_msid": "65981506-dc24-49c9-ae0f-530e6a74dedf",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 182000,
+          "recording_msid": "65981506-dc24-49c9-ae0f-530e6a74dedf",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Rooléh",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e44a620c-4321-4c4e-b7c7-51d3524efb2f"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Rooléh",
+              "artist_mbid": "e44a620c-4321-4c4e-b7c7-51d3524efb2f",
+              "join_phrase": ""
+            }
+          ],
+          "recording_mbid": "909a7c07-4038-43c8-a895-150a478d8ee7",
+          "recording_name": "Want To Know"
+        },
+        "release_name": "Want To Know",
+        "track_name": "Want To Know"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789139212,
+      "listened_at": 1789138977,
+      "recording_msid": "4930a84b-566c-4c4e-b17e-e895108027f5",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 364000,
+          "recording_msid": "4930a84b-566c-4c4e-b17e-e895108027f5",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Claude VonStroke",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "c5439b13-b62b-4377-a2fb-1888ae85d498"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Claude VonStroke",
+              "artist_mbid": "c5439b13-b62b-4377-a2fb-1888ae85d498",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 25737055164,
+          "caa_release_mbid": "fecbc7d6-7af4-4d3e-a8a4-0b8ba39c778f",
+          "recording_mbid": "dac1601c-ef68-453a-b776-c9a0b102bc30",
+          "recording_name": "Who's Afraid of Detroit?",
+          "release_group_mbid": "0b983dbd-b37c-3d96-91db-cb055a0fb882",
+          "release_mbid": "8dfa8b47-a5b2-4956-85e0-7c5802284225"
+        },
+        "release_name": "Beware Of The Bird",
+        "track_name": "Who's Afraid Of Detroit?"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789128160,
+      "listened_at": 1789127919,
+      "recording_msid": "e02b1305-df1b-45be-be89-440c40e95690",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "e02b1305-df1b-45be-be89-440c40e95690",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Silva Bumpa - Sterling sounds",
+        "release_name": "The Residency on Radio 1 Dance - 2026",
+        "track_name": "The Residency on Radio 1 Dance: Silva Bumpa - Sterling sounds - 2026-08-27"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789121702,
+      "listened_at": 1789121462,
+      "recording_msid": "901059bc-6fd5-4b8b-b762-6526f666b2ef",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "901059bc-6fd5-4b8b-b762-6526f666b2ef",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Hot Since 82",
+        "release_name": "Radio 1's Essential Mix - 2026",
+        "track_name": "Radio 1's Essential Mix: Hot Since 82 - 2026-09-05"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789120201,
+      "listened_at": 1789119961,
+      "recording_msid": "65dbfdd7-d0d3-4967-a673-1968de3fd119",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "65dbfdd7-d0d3-4967-a673-1968de3fd119",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Radio 1's Essential Mix: Hot Since 82",
+        "track_name": "2026-09-05"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789119906,
+      "listened_at": 1789119839,
+      "recording_msid": "9b442471-a224-444f-9a28-c145e77ad9c6",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 278778,
+          "recording_msid": "9b442471-a224-444f-9a28-c145e77ad9c6",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "RÜFÜS DU SOL",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "1cfa6ee5-1189-4ade-97db-8f20a6ba5c76"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "RÜFÜS DU SOL",
+              "artist_mbid": "1cfa6ee5-1189-4ade-97db-8f20a6ba5c76",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 39859657665,
+          "caa_release_mbid": "2d184cc4-d51c-4c0f-ab43-55dd336a9ec9",
+          "recording_mbid": "18e145d6-69c7-4056-967d-afcc299f3ee8",
+          "recording_name": "In the Moment",
+          "release_group_mbid": "5d7c4fee-930a-45f5-8164-36fdcd7171e3",
+          "release_mbid": "2d184cc4-d51c-4c0f-ab43-55dd336a9ec9",
+          "url_rels": [
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/385575253"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://www.beatport.com/track/-/19609445"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/2981613681"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/1766410602"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/3024peZJbwaW2TnfobmIu8"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/us/song/1766410602"
+            }
+          ]
+        },
+        "release_name": "Inhale / Exhale",
+        "track_name": "In the Moment"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789065699,
+      "listened_at": 1789064592,
+      "recording_msid": "855099e1-38ff-4083-b137-38453188cc31",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 383175,
+          "recording_msid": "855099e1-38ff-4083-b137-38453188cc31",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Cajmere Dajae",
+        "track_name": "Brighter Days (Marco Lys Remix)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789037221,
+      "listened_at": 1789037017,
+      "recording_msid": "bf728774-6070-4059-8317-b11df5400307",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 403000,
+          "recording_msid": "bf728774-6070-4059-8317-b11df5400307",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Mark Fanciulli",
+        "release_name": "Star",
+        "track_name": "Star"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789036825,
+      "listened_at": 1789035124,
+      "recording_msid": "e4a58e4d-9705-4253-bf6b-1871b4b6f11a",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 388000,
+          "recording_msid": "e4a58e4d-9705-4253-bf6b-1871b4b6f11a",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Saison",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "79629453-66a3-405c-bfd8-2293da9e6652"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Saison",
+              "artist_mbid": "79629453-66a3-405c-bfd8-2293da9e6652",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 36594672440,
+          "caa_release_mbid": "8c41c02d-9b43-4424-9635-359d4a38e6bf",
+          "recording_mbid": "c96e3d5d-3718-42ec-a499-781a5dab00b0",
+          "recording_name": "Moments",
+          "release_group_mbid": "ffe5faed-f0d6-4d44-aeec-683c235f9e41",
+          "release_mbid": "c724ed51-f50a-4e7c-a81a-9a0f156231b3"
+        },
+        "release_name": "G Lounge, Vol. 16",
+        "track_name": "Moments"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789035027,
+      "listened_at": 1789034930,
+      "recording_msid": "aec5b5dc-46fe-4de3-ae17-afc0c2c03865",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 195000,
+          "recording_msid": "aec5b5dc-46fe-4de3-ae17-afc0c2c03865",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "James Brown",
+        "release_name": "Black Caesar",
+        "track_name": "The Boss (feat. The J.B.'s)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789034742,
+      "listened_at": 1789034627,
+      "recording_msid": "e0f63e58-1ef0-48c8-adb2-3795d1b1b5f5",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 305000,
+          "recording_msid": "e0f63e58-1ef0-48c8-adb2-3795d1b1b5f5",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Benny Benassi",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "674bf89f-8e70-4472-929d-6b4ed6f98c88"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Benny Benassi",
+              "artist_mbid": "674bf89f-8e70-4472-929d-6b4ed6f98c88",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 32638759251,
+          "caa_release_mbid": "742b0aff-803e-3a70-bc6f-72fa8853e256",
+          "recording_mbid": "3d1cb154-e51a-4c10-8f77-f7a475d73959",
+          "recording_name": "Love Is Gonna Save Us",
+          "release_group_mbid": "f574c1f4-6d86-3802-b5fd-09323164cd0d",
+          "release_mbid": "d7096977-da82-4bd4-9156-23385e772ab5"
+        },
+        "release_name": "Hypnotica (UK Edition)",
+        "track_name": "Love is Gonna Save Us"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789034745,
+      "listened_at": 1788955053,
+      "recording_msid": "ad1624f1-c79d-43d5-a695-14897e70e664",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 160000,
+          "recording_msid": "ad1624f1-c79d-43d5-a695-14897e70e664",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Josh Baker",
+        "release_name": "My Place",
+        "track_name": "My Place"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789211660,
+      "listened_at": 1789211564,
+      "recording_msid": "873c4e22-0224-4b11-89d9-0f81a9c4413b",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 191000,
+          "recording_msid": "873c4e22-0224-4b11-89d9-0f81a9c4413b",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Shawn Mendes",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "b7d92248-97e3-4450-8057-6fe06738f735",
+            "01b8b5bf-06cb-45da-85fb-61ada72fcd69"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Shawn Mendes",
+              "artist_mbid": "b7d92248-97e3-4450-8057-6fe06738f735",
+              "join_phrase": " & "
+            },
+            {
+              "artist_credit_name": "Camila Cabello",
+              "artist_mbid": "01b8b5bf-06cb-45da-85fb-61ada72fcd69",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 45465235824,
+          "caa_release_mbid": "56a319ad-43df-4254-9238-e825fdf652f0",
+          "recording_mbid": "62f09fd2-144a-439a-96f9-ce93f05b48ae",
+          "recording_name": "Señorita",
+          "release_group_mbid": "41b9c230-aee1-4f02-a01c-a2abdf4d4f36",
+          "release_mbid": "3666e267-d5b9-497d-a159-6f6c7aa62ae0",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/0TK2YIli7K1leLovkQiNik"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://music.youtube.com/watch?v=VKC_hzJ3jzg"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/823567782"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.youtube.com/watch?v=Pkh8UtuejGw"
+            }
+          ]
+        },
+        "release_name": "Señorita",
+        "track_name": "Señorita"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789211402,
+      "listened_at": 1789211239,
+      "recording_msid": "3f16657c-045e-49a1-8051-541429c58860",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 323941,
+          "recording_msid": "3f16657c-045e-49a1-8051-541429c58860",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Leftfield",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "369fbad4-6fa4-4dae-9842-a69826cd359d"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Leftfield",
+              "artist_mbid": "369fbad4-6fa4-4dae-9842-a69826cd359d",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 5157412983,
+          "caa_release_mbid": "f34586e8-b43b-468c-b781-c91e0d98a686",
+          "recording_mbid": "e2b77310-5b9e-46ba-ba9d-bd85ee03a85e",
+          "recording_name": "Phat Planet",
+          "release_group_mbid": "5af36236-0b3e-3b31-b32e-92839423160f",
+          "release_mbid": "f34586e8-b43b-468c-b781-c91e0d98a686",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/3cR4v4R9tl8vZkOAgqiMQh"
+            }
+          ]
+        },
+        "release_name": "Rhythm and Stealth",
+        "track_name": "Phat Planet"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789211156,
+      "listened_at": 1789211070,
+      "recording_msid": "d7fc379d-6f66-4d34-959b-aad42a870ed0",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 170000,
+          "recording_msid": "d7fc379d-6f66-4d34-959b-aad42a870ed0",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Love Regenerator",
+        "release_name": "Lonely",
+        "track_name": "Lonely (feat. Sananda Maitreya)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789210876,
+      "listened_at": 1789210682,
+      "recording_msid": "9f2f2266-3904-4834-8406-924db6464206",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 387000,
+          "recording_msid": "9f2f2266-3904-4834-8406-924db6464206",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "The Chemical Brothers",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "1946a82a-f927-40c2-8235-38d64f50d043"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "The Chemical Brothers",
+              "artist_mbid": "1946a82a-f927-40c2-8235-38d64f50d043",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 26737965844,
+          "caa_release_mbid": "55c16649-24b1-482c-9744-10e5c16f9680",
+          "recording_mbid": "93411521-d7b4-4c87-9bce-a4ba5e6b95fa",
+          "recording_name": "Star Guitar",
+          "release_group_mbid": "77a274d0-ab11-304f-85c4-991838dffdfb",
+          "release_mbid": "22b38127-08e4-43e7-82e5-2b46d3ece88e",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/19mC6xktT1JyyycK6cQaXA"
+            }
+          ]
+        },
+        "release_name": "Come With Us",
+        "track_name": "Star Guitar"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789210576,
+      "listened_at": 1789210468,
+      "recording_msid": "6b066dd3-15cf-4427-b7e7-40eaf29fb21d",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 214000,
+          "recording_msid": "6b066dd3-15cf-4427-b7e7-40eaf29fb21d",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Wilkinson",
+        "release_name": "Infinity",
+        "track_name": "Infinity (feat. ILIRA, iiola & Tom Cane)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789210368,
+      "listened_at": 1789210266,
+      "recording_msid": "24870e45-8622-404b-aaaf-af54ef5a3b90",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 203000,
+          "recording_msid": "24870e45-8622-404b-aaaf-af54ef5a3b90",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Vintage Culture",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "17978ff5-140c-43b7-85c6-d602a88af6c4",
+            "b0311291-19f9-4288-96be-e8a5da0a104a",
+            "15df3f99-a3a1-47d0-8364-3d62932a8b3a"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Vintage Culture",
+              "artist_mbid": "17978ff5-140c-43b7-85c6-d602a88af6c4",
+              "join_phrase": ", "
+            },
+            {
+              "artist_credit_name": "Maverick Sabre",
+              "artist_mbid": "b0311291-19f9-4288-96be-e8a5da0a104a",
+              "join_phrase": " & "
+            },
+            {
+              "artist_credit_name": "Tom Breu",
+              "artist_mbid": "15df3f99-a3a1-47d0-8364-3d62932a8b3a",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 40028219673,
+          "caa_release_mbid": "295a71a9-1494-4575-b916-b6fb26ee8544",
+          "recording_mbid": "3282000a-e3bd-49b2-919b-092b840c385a",
+          "recording_name": "Weak",
+          "release_group_mbid": "85560faf-ab80-49d5-9fd1-4509ad07e6e5",
+          "release_mbid": "295a71a9-1494-4575-b916-b6fb26ee8544",
+          "url_rels": [
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/375847883"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/2895222951"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/3WmXQ1rjxtGCKnuDqv7LHF"
+            }
+          ]
+        },
+        "release_name": "Weak",
+        "track_name": "Weak"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789210100,
+      "listened_at": 1789209933,
+      "recording_msid": "918f6be9-85cf-45e3-a954-eecaaf9540aa",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 333000,
+          "recording_msid": "918f6be9-85cf-45e3-a954-eecaaf9540aa",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "The Chemical Brothers",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "1946a82a-f927-40c2-8235-38d64f50d043"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "The Chemical Brothers",
+              "artist_mbid": "1946a82a-f927-40c2-8235-38d64f50d043",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 38582024133,
+          "caa_release_mbid": "cdd02611-997c-46ae-ac39-61d1f5361775",
+          "recording_mbid": "ffa5ae0a-8ac3-4d58-9271-18e7dc70d4a2",
+          "recording_name": "Leave Home",
+          "release_group_mbid": "8fffd616-de95-3597-b1f2-211666cfc2dd",
+          "release_mbid": "cdd02611-997c-46ae-ac39-61d1f5361775",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/4mFDB35IaTzrzqMn4spMqo"
+            }
+          ]
+        },
+        "release_name": "Exit Planet Dust",
+        "track_name": "Leave Home"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789209846,
+      "listened_at": 1789209757,
+      "recording_msid": "7d04dc94-75dc-42e5-a6ef-c9d29dbf979c",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 176000,
+          "recording_msid": "7d04dc94-75dc-42e5-a6ef-c9d29dbf979c",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Jackie Wilson",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "f0bf4fa0-028e-452f-82d3-7d4375e105dd"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Jackie Wilson",
+              "artist_mbid": "f0bf4fa0-028e-452f-82d3-7d4375e105dd",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 22576165147,
+          "caa_release_mbid": "998c385f-162a-4f92-8dd6-96997738d0e4",
+          "recording_mbid": "53846021-293f-40e1-95e5-b64a51582fba",
+          "recording_name": "I Get the Sweetest Feeling",
+          "release_group_mbid": "1572367d-8b30-3ea6-8061-f6c37660576a",
+          "release_mbid": "998c385f-162a-4f92-8dd6-96997738d0e4"
+        },
+        "release_name": "The Ultimate Jackie Wilson",
+        "track_name": "I Get The Sweetest Feeling"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789209545,
+      "listened_at": 1789209332,
+      "recording_msid": "2f9a8149-db01-41d9-9c49-859be868335e",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 425000,
+          "recording_msid": "2f9a8149-db01-41d9-9c49-859be868335e",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Maxxi Soundsystem",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "da3a1f35-2bdf-45eb-97a7-7989fa54b313"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Maxxi Soundsystem",
+              "artist_mbid": "da3a1f35-2bdf-45eb-97a7-7989fa54b313",
+              "join_phrase": ""
+            }
+          ],
+          "recording_mbid": "7710c29c-0a91-4abf-8244-7407c62c035c",
+          "recording_name": "Criticize",
+          "release_group_mbid": "532c41c3-c9d9-48ca-a618-fe0669f4ed37",
+          "release_mbid": "c990aac2-7b57-44d5-9c1e-ee5cf9fbcd0f"
+        },
+        "track_name": "Criticize"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789209166,
+      "listened_at": 1789208994,
+      "recording_msid": "f1bafc5c-15f9-4e1f-838e-0ee55a8c2cb5",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 338000,
+          "recording_msid": "f1bafc5c-15f9-4e1f-838e-0ee55a8c2cb5",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Dusky",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "9feea1d6-3e4e-4d3c-b84a-87a12f7cbf94"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Dusky",
+              "artist_mbid": "9feea1d6-3e4e-4d3c-b84a-87a12f7cbf94",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 31681084506,
+          "caa_release_mbid": "34875e50-3b8d-4377-a276-76dd7b0034f8",
+          "recording_mbid": "8f397081-690d-43c2-9016-1f84594779af",
+          "recording_name": "Amongst the Gods",
+          "release_group_mbid": "74269426-704a-4736-a2b0-44e8e6e8cd4d",
+          "release_mbid": "34875e50-3b8d-4377-a276-76dd7b0034f8"
+        },
+        "release_name": "Aset Forever EP",
+        "track_name": "Amongst The Gods"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789208692,
+      "listened_at": 1789208451,
+      "recording_msid": "779c50f7-e02d-4f7a-96f3-3b80cc0c0e41",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 543000,
+          "recording_msid": "779c50f7-e02d-4f7a-96f3-3b80cc0c0e41",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Eric Prydz",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "35dac7d2-0b1f-470f-9a5a-c53c8821f6d6"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Eric Prydz",
+              "artist_mbid": "35dac7d2-0b1f-470f-9a5a-c53c8821f6d6",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 35234550788,
+          "caa_release_mbid": "bcbbc17e-82c9-4fe2-82b5-2c90f9e02adf",
+          "recording_mbid": "6922513d-b9dc-4ccc-97b1-61e81bf5ec43",
+          "recording_name": "Opus",
+          "release_group_mbid": "db24aad9-a207-4ee2-9b19-ca0f6efa120a",
+          "release_mbid": "6fd2ecdf-986a-48a5-b8de-df498c27e2cd",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://soundcloud.com/eric-prydz/eric-prydz-opus"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://www.beatport.com/track/opus/6888199"
+            }
+          ]
+        },
+        "release_name": "Opus",
+        "track_name": "Opus"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789208453,
+      "listened_at": 1789208061,
+      "recording_msid": "bf66ff3d-c52d-4016-973c-51554d92a413",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 393000,
+          "recording_msid": "bf66ff3d-c52d-4016-973c-51554d92a413",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Arm In Arm",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "bb1d2f65-7389-44b4-8f1f-8aa692c89b5a"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Arm In Arm",
+              "artist_mbid": "bb1d2f65-7389-44b4-8f1f-8aa692c89b5a",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 37228951091,
+          "caa_release_mbid": "0387f361-2982-41ef-aa55-1a9f837d7aaa",
+          "recording_mbid": "52fad273-97f4-4ff4-881b-b93cd180024f",
+          "recording_name": "Hunger For Your Vibe (Moonwalk Remix)",
+          "release_group_mbid": "b9cc7364-e186-4565-bc2e-61a5e9b0cedc",
+          "release_mbid": "0387f361-2982-41ef-aa55-1a9f837d7aaa"
+        },
+        "release_name": "Hunger for Your Vibe",
+        "track_name": "Hunger For Your Vibe (Moonwalk Remix)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789207942,
+      "listened_at": 1789207820,
+      "recording_msid": "b794487b-e313-461f-93ab-14744db61619",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 238000,
+          "recording_msid": "b794487b-e313-461f-93ab-14744db61619",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Bonobo",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "9a709693-b4f8-4da9-8cc1-038c911a61be"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Bonobo",
+              "artist_mbid": "9a709693-b4f8-4da9-8cc1-038c911a61be",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 6194655124,
+          "caa_release_mbid": "5cfd09c6-d8df-4a03-9811-907b2ffadbda",
+          "recording_mbid": "325735b0-a7a7-4193-83a7-25ec0c856c06",
+          "recording_name": "Kong",
+          "release_group_mbid": "f382cd44-9195-46ce-9362-dadbe16cefe9",
+          "release_mbid": "5cfd09c6-d8df-4a03-9811-907b2ffadbda",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/7Cg3F9ZsZ2TYUnlza49NYh"
+            }
+          ]
+        },
+        "release_name": "Black Sands",
+        "track_name": "Kong"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789207660,
+      "listened_at": 1789207498,
+      "recording_msid": "6a09230d-d4d4-4e3f-bc54-cb0dc1f18090",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 321000,
+          "recording_msid": "6a09230d-d4d4-4e3f-bc54-cb0dc1f18090",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Steve Angello",
+        "release_name": "Paradiso",
+        "track_name": "Dopamine (feat. Barns Courtney)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789207319,
+      "listened_at": 1789207139,
+      "recording_msid": "3c8b657f-682f-4ef6-87ef-ca4513553ed2",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 359143,
+          "recording_msid": "3c8b657f-682f-4ef6-87ef-ca4513553ed2",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "David Penn",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "5ba79f1b-3673-4218-bb78-64ce2e5d7cdd"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "David Penn",
+              "artist_mbid": "5ba79f1b-3673-4218-bb78-64ce2e5d7cdd",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 29590776793,
+          "caa_release_mbid": "656b01b6-9d56-40eb-85bf-6260f72b7ce2",
+          "recording_mbid": "74b685a4-62f5-4005-a50b-6af474f8f858",
+          "recording_name": "The Heat (extended mix)",
+          "release_group_mbid": "05cd156e-d9c6-4356-b233-3ff08ac989a4",
+          "release_mbid": "656b01b6-9d56-40eb-85bf-6260f72b7ce2"
+        },
+        "track_name": "The Heat (Extended Mix)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789206942,
+      "listened_at": 1789206743,
+      "recording_msid": "48d0f2c2-2b77-4a75-ba88-b3a6649eb9eb",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 397000,
+          "recording_msid": "48d0f2c2-2b77-4a75-ba88-b3a6649eb9eb",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Reflekt",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "3c60235d-d58f-47aa-97f9-7a1b3ed25671"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Reflekt",
+              "artist_mbid": "3c60235d-d58f-47aa-97f9-7a1b3ed25671",
+              "join_phrase": ""
+            }
+          ],
+          "recording_mbid": "8cfe8ebf-171c-4dfa-85ef-064c4b901b64",
+          "recording_name": "Need to Feel Loved",
+          "release_group_mbid": "8013c6c2-cbb1-4ca0-9d11-0699d76e189b",
+          "release_mbid": "29eb5f49-6a03-435b-8333-21148c674038"
+        },
+        "release_name": "Need To Feel Loved",
+        "track_name": "Need To Feel Loved (Adam K & Soha Vocal Mix) (feat. Delline Bass)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789206591,
+      "listened_at": 1789206438,
+      "recording_msid": "f34912d6-a3b4-4eef-ac3d-25b739b76af0",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 305000,
+          "recording_msid": "f34912d6-a3b4-4eef-ac3d-25b739b76af0",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Muse",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "9c9f1380-2516-4fc9-a3e6-f9f61941d090"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Muse",
+              "artist_mbid": "9c9f1380-2516-4fc9-a3e6-f9f61941d090",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 9587523172,
+          "caa_release_mbid": "8b81525b-7fd8-4cd8-b9cf-c4eb0040804d",
+          "recording_mbid": "0ca789c6-3618-48f1-8ee0-977f70a621d6",
+          "recording_name": "Uprising",
+          "release_group_mbid": "8411a4db-e104-4e45-995f-24b2f1849437",
+          "release_mbid": "856cdf3a-ca13-3499-b1ab-d4df78207947"
+        },
+        "release_name": "The Resistance",
+        "track_name": "Uprising"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789204925,
+      "listened_at": 1789204765,
+      "recording_msid": "3b49dbdd-3e15-4ced-884e-06cf1106a4b6",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 320000,
+          "recording_msid": "3b49dbdd-3e15-4ced-884e-06cf1106a4b6",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Chic",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "a4ed036b-5f18-439c-b1e1-96d205bab255"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Chic",
+              "artist_mbid": "a4ed036b-5f18-439c-b1e1-96d205bab255",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 29300666818,
+          "caa_release_mbid": "ee5e159b-b73f-4ecf-8857-5f363bf9ac61",
+          "recording_mbid": "57acbd93-8745-430e-9c35-4b4c20b3c5d8",
+          "recording_name": "Le Freak",
+          "release_group_mbid": "db46b19c-0e97-30de-ba53-7e823104d14a",
+          "release_mbid": "228d2f3b-690b-3001-9a40-c7830a517f5c"
+        },
+        "release_name": "The Very Best of Chic",
+        "track_name": "Le Freak"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789204560,
+      "listened_at": 1789204357,
+      "recording_msid": "18405704-179a-47aa-b7fa-743306519972",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 406000,
+          "recording_msid": "18405704-179a-47aa-b7fa-743306519972",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "R Plus",
+        "release_name": "My Boy (Meduza Remix)",
+        "track_name": "My Boy (Meduza Remix)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789204296,
+      "listened_at": 1789204236,
+      "recording_msid": "c3fe98d2-2532-4037-98a1-15c3710d1a79",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 121000,
+          "recording_msid": "c3fe98d2-2532-4037-98a1-15c3710d1a79",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Blur",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "ba853904-ae25-4ebb-89d6-c44cfbd71bd2"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Blur",
+              "artist_mbid": "ba853904-ae25-4ebb-89d6-c44cfbd71bd2",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 11267191059,
+          "caa_release_mbid": "c5555d72-2713-434d-a26e-584c465a5f99",
+          "recording_mbid": "b39b7227-c271-4ab8-912b-cb1fe2fc0e5e",
+          "recording_name": "Song 2",
+          "release_group_mbid": "fdd6c833-3c96-33cb-9917-72e15bcd34bc",
+          "release_mbid": "f629e473-1339-4713-8b91-bc1656cf9fba",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/1id6H6vcwSB9GGv9NXh5cl"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/6nvpBmQiX9LpT2dXmCJWaP"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/283880650"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/2201814347"
+            }
+          ]
+        },
+        "release_name": "Blur",
+        "track_name": "Song 2"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789204073,
+      "listened_at": 1789203910,
+      "recording_msid": "99b11365-95ea-47c7-b172-c42552e56d9f",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 326000,
+          "recording_msid": "99b11365-95ea-47c7-b172-c42552e56d9f",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Earth n Days",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "115aea6f-93e0-400d-9fc8-7fcf9162a9b2"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Earth n Days",
+              "artist_mbid": "115aea6f-93e0-400d-9fc8-7fcf9162a9b2",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 32243647472,
+          "caa_release_mbid": "f63ef3c1-8286-4923-9d43-ac99e7558906",
+          "recording_mbid": "63f30562-96e5-47f4-8c95-0a1c7eaad72b",
+          "recording_name": "Just Be Good To Me",
+          "release_group_mbid": "42cc80ff-2f0a-4db1-833f-951b1bd789f5",
+          "release_mbid": "f63ef3c1-8286-4923-9d43-ac99e7558906"
+        },
+        "release_name": "Just Be Good to Me",
+        "track_name": "Just Be Good to Me"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789203883,
+      "listened_at": 1789203540,
+      "recording_msid": "ed140156-491f-4d5f-b2fc-ecee36f44bf3",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 370000,
+          "recording_msid": "ed140156-491f-4d5f-b2fc-ecee36f44bf3",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Daft Punk",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "056e4f3e-d505-4dad-8ec1-d04f521cbb56"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Daft Punk",
+              "artist_mbid": "056e4f3e-d505-4dad-8ec1-d04f521cbb56",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 40502851453,
+          "caa_release_mbid": "34961ccb-9e25-43a3-bf2d-5be77bded3a9",
+          "recording_mbid": "604b0c12-31a3-4219-8965-70051e2289db",
+          "recording_name": "Get Lucky",
+          "release_group_mbid": "ecda4e2b-d6c7-4e28-9b9d-92621ac8cbe4",
+          "release_mbid": "7f64ab9e-833c-4247-a35f-9a12ba2bcde4"
+        },
+        "release_name": "Random Access Memories",
+        "track_name": "Get Lucky (feat. Pharrell Williams and Nile Rodgers)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789203418,
+      "listened_at": 1789203145,
+      "recording_msid": "08482f62-92a4-404a-8f57-0acf01131431",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 395000,
+          "recording_msid": "08482f62-92a4-404a-8f57-0acf01131431",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Green Velvet",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e425b041-c28a-4ae8-9d5c-997890433cd4"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Green Velvet",
+              "artist_mbid": "e425b041-c28a-4ae8-9d5c-997890433cd4",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 21890473573,
+          "caa_release_mbid": "b7db2940-31e6-49a2-8702-432368123adb",
+          "recording_mbid": "dfab2460-c8de-48f7-a53f-0e0e146ecfb3",
+          "recording_name": "Bigger Than Prince (Hot Since 82 remix)",
+          "release_group_mbid": "9d388413-a16d-4d7f-8ac1-884c48470bbb",
+          "release_mbid": "c76da51c-5656-4e58-9c74-02eb79e7648b"
+        },
+        "release_name": "Bigger Than Prince",
+        "track_name": "Bigger Than Prince (Hot Since 82 Remix)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789203037,
+      "listened_at": 1789202929,
+      "recording_msid": "464e99ed-537f-40f8-87fd-e55ea68737d0",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 216000,
+          "recording_msid": "464e99ed-537f-40f8-87fd-e55ea68737d0",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "RÜFÜS DU SOL",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "1cfa6ee5-1189-4ade-97db-8f20a6ba5c76"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "RÜFÜS DU SOL",
+              "artist_mbid": "1cfa6ee5-1189-4ade-97db-8f20a6ba5c76",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 42532882112,
+          "caa_release_mbid": "39a21a65-9bae-4116-9a7e-b323a16f970e",
+          "recording_mbid": "d3363af0-d815-4163-8592-47c0c4937a4b",
+          "recording_name": "Lately (Adam Ten & Mita Gami remix)",
+          "release_group_mbid": "3a5af4ed-29e6-40a3-b012-3a971cfc0f4f",
+          "release_mbid": "e263bf2d-d92f-44b7-9a08-d108ade2b5dd",
+          "url_rels": [
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/au/song/1816111881"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/3380761641"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/3cqCaIkSoMm89hSRENayKL"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/437621881"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/au/song/1816111881"
+            }
+          ]
+        },
+        "release_name": "Lately (Adam Ten & Mita Gami Remix)",
+        "track_name": "Lately (Adam Ten & Mita Gami Remix)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789202786,
+      "listened_at": 1789202572,
+      "recording_msid": "a500401b-2a2b-482a-8d09-f7cda4703256",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 356000,
+          "recording_msid": "a500401b-2a2b-482a-8d09-f7cda4703256",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Alan Braxe & Fred Falke",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "cefd870b-3535-4ad4-baae-378594b57a14"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Alan Braxe & Fred Falke",
+              "artist_mbid": "cefd870b-3535-4ad4-baae-378594b57a14",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 44161557818,
+          "caa_release_mbid": "31440b82-21a1-4e9c-bb29-bbdcca43b9fc",
+          "recording_mbid": "4b5543bf-1f33-43fb-8d0a-b36a4360660e",
+          "recording_name": "Intro (Fred Falke remix)",
+          "release_group_mbid": "973d11b1-1382-4815-8a79-ce8621de6d93",
+          "release_mbid": "31440b82-21a1-4e9c-bb29-bbdcca43b9fc"
+        },
+        "release_name": "Intro (Fred Falke Remix)",
+        "track_name": "Intro (Fred Falke Remix)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789202471,
+      "listened_at": 1789202365,
+      "recording_msid": "30f9dfb3-6e6b-4f58-833a-3d646cf811c8",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 206000,
+          "recording_msid": "30f9dfb3-6e6b-4f58-833a-3d646cf811c8",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Kim Wilde",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "4b462375-c508-432a-8c88-ceeec38b16ae"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kim Wilde",
+              "artist_mbid": "4b462375-c508-432a-8c88-ceeec38b16ae",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 14304162302,
+          "caa_release_mbid": "4efdf994-a10f-46c6-bc85-733938b1302c",
+          "recording_mbid": "83d77263-8832-4eb9-8044-ad37fbef2b6d",
+          "recording_name": "Kids in America",
+          "release_group_mbid": "7636a902-b6cd-3048-9da2-65dcf3fcd508",
+          "release_mbid": "4e6fd74d-dc32-4d74-85ca-3ca40dff78b2",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/5uLlBt6jgu4FdhftQpbJX2"
+            }
+          ]
+        },
+        "release_name": "Kim Wilde",
+        "track_name": "Kids In America"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789301945,
+      "listened_at": 1789301740,
+      "recording_msid": "9cba079c-a609-4e71-8b64-9aa930bb521f",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 392000,
+          "recording_msid": "9cba079c-a609-4e71-8b64-9aa930bb521f",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "UMEK",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "a03affe5-47af-48c4-9b8e-67654fa318ec"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Umek",
+              "artist_mbid": "a03affe5-47af-48c4-9b8e-67654fa318ec",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 39740953917,
+          "caa_release_mbid": "0673f6c5-4ce6-47ae-bdac-a5f7a0753dbd",
+          "recording_mbid": "b96af02b-6a6d-44a2-8549-0286ecf77326",
+          "recording_name": "Whiff Punishing",
+          "release_group_mbid": "2630197d-30b9-4b6e-aa9a-e456cfb80508",
+          "release_mbid": "0673f6c5-4ce6-47ae-bdac-a5f7a0753dbd"
+        },
+        "release_name": "Predator",
+        "track_name": "Whiff Punishing"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789301655,
+      "listened_at": 1789301562,
+      "recording_msid": "a1da945e-1600-46e3-8d85-9cb93f238574",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 183000,
+          "recording_msid": "a1da945e-1600-46e3-8d85-9cb93f238574",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Dua Lipa",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Dua Lipa",
+              "artist_mbid": "6f1a58bf-9b1b-49cf-a44a-6cefad7ae04f",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 25777832070,
+          "caa_release_mbid": "57bc5762-baa9-48d8-93ec-7858d8350880",
+          "recording_mbid": "6090c671-606f-4704-85c6-8a0c33763a3d",
+          "recording_name": "Don’t Start Now",
+          "release_group_mbid": "aa366795-92d7-4d67-91fa-6741f82a4858",
+          "release_mbid": "eb694f4e-ecaa-4a71-8fb6-aa5db59a6291",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://music.youtube.com/watch?v=htg8v0g_4e4"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.youtube.com/watch?v=wd9_QCH8Eq4"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/171413002"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/fr/song/1551179223"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/fr/song/1551179223"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/1234638632"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/3oRWl1wBZo9KjZRAwvOFJv"
+            }
+          ]
+        },
+        "release_name": "Don't Start Now",
+        "track_name": "Don't Start Now"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789301658,
+      "listened_at": 1789301102,
+      "recording_msid": "e3ef881c-b1ec-4538-8585-cffffd201c27",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 516000,
+          "recording_msid": "e3ef881c-b1ec-4538-8585-cffffd201c27",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Energy 52",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "067f26c1-d678-410e-8217-e554a3418143"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Energy 52",
+              "artist_mbid": "067f26c1-d678-410e-8217-e554a3418143",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 7241432379,
+          "caa_release_mbid": "647896ac-9bd4-42d6-a418-ccd64144029b",
+          "recording_mbid": "f89762e8-bc4a-4b0f-ad3c-1c48203af064",
+          "recording_name": "Cafe del Mar (Tale of Us Renaissance remix)",
+          "release_group_mbid": "79e52b13-6f49-3d92-b9ae-48f7955ba6ef",
+          "release_mbid": "75681389-2823-4f4a-a45f-4dd9291a3028"
+        },
+        "release_name": "My Melodic Tech House",
+        "track_name": "Cafe del Mar (Tale of Us Renaissance Remix)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789300999,
+      "listened_at": 1789300897,
+      "recording_msid": "041164ed-a4f2-460b-943e-cb903f275bf6",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 203000,
+          "recording_msid": "041164ed-a4f2-460b-943e-cb903f275bf6",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Kings Of Leon",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "6ffb8ea9-2370-44d8-b678-e9237bbd347b"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Kings of Leon",
+              "artist_mbid": "6ffb8ea9-2370-44d8-b678-e9237bbd347b",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 36872501084,
+          "caa_release_mbid": "2d973c4a-bb2c-476c-8641-f3637c8dcaca",
+          "recording_mbid": "051caac1-1f67-4733-80b5-62cb32660daa",
+          "recording_name": "Sex on Fire",
+          "release_group_mbid": "7a23bc7e-d7bd-3a22-a38d-7d1f793bae1c",
+          "release_mbid": "1a158952-0a0d-372f-a37f-325c50641b8a",
+          "url_rels": [
+            {
+              "type": "purchase for download",
+              "url": "https://open.qobuz.com/track/12963099"
+            },
+            {
+              "type": "streaming",
+              "url": "https://open.qobuz.com/track/12963099"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/290303003"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/1906286"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/5A1FmxbYVRZKy4nc16MAue"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/us/song/290303003"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/15531170"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/0ntQJM78wzOLVeCUAW7Y45"
+            }
+          ]
+        },
+        "release_name": "Only By The Night",
+        "track_name": "Sex on Fire"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789300700,
+      "listened_at": 1789300642,
+      "recording_msid": "ba70d978-d503-4933-bdf3-8766302fb6fd",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 255000,
+          "recording_msid": "ba70d978-d503-4933-bdf3-8766302fb6fd",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Goldfrapp",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "7b885d42-3c41-4f43-9944-a5855ec5155e"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Goldfrapp",
+              "artist_mbid": "7b885d42-3c41-4f43-9944-a5855ec5155e",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 5280320493,
+          "caa_release_mbid": "bd04eb0b-9bf6-4e59-9aac-9fc0bd36f85f",
+          "recording_mbid": "c6a410f1-7f25-4c50-9977-616f3fc1caa8",
+          "recording_name": "Happiness",
+          "release_group_mbid": "079898f3-6d37-3244-8669-7e963606d798",
+          "release_mbid": "bd04eb0b-9bf6-4e59-9aac-9fc0bd36f85f",
+          "url_rels": [
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/gb/song/1435649259"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/492802953"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/gb/song/1435649259"
+            },
+            {
+              "type": "streaming",
+              "url": "https://open.qobuz.com/track/387100046"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/7FDzRpkPni2z2g4cptbfVx"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/3801637992"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://open.qobuz.com/track/387100046"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/78GBszqgsTOnlxLOYMWJGg"
+            }
+          ]
+        },
+        "release_name": "Seventh Tree",
+        "track_name": "Happiness"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789300452,
+      "listened_at": 1789292571,
+      "recording_msid": "137f5f56-57e6-489f-9842-7659e93c21b7",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 382000,
+          "recording_msid": "137f5f56-57e6-489f-9842-7659e93c21b7",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Nasser Baker",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "b2cae9f5-c15d-4ea4-a42a-fbf3d26b5a4e"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Nasser Baker",
+              "artist_mbid": "b2cae9f5-c15d-4ea4-a42a-fbf3d26b5a4e",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 45198293825,
+          "caa_release_mbid": "c5e99435-6e55-4269-8934-eeb3f7c7b411",
+          "recording_mbid": "c2a88312-7f17-447f-acad-3386d835cc61",
+          "recording_name": "Say Something",
+          "release_group_mbid": "1de34fc6-fae5-4b1b-b199-e3664bb40805",
+          "release_mbid": "4473d340-455c-424c-9fc8-1eed4cf8c3bf"
+        },
+        "release_name": "Say Something",
+        "track_name": "Say Something"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789292462,
+      "listened_at": 1789292351,
+      "recording_msid": "2146d79b-ece2-4726-aae4-079a68575e22",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 219000,
+          "recording_msid": "2146d79b-ece2-4726-aae4-079a68575e22",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Calvin Harris",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "8dd98bdc-80ec-4e93-8509-2f46bafc09a7"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Calvin Harris",
+              "artist_mbid": "8dd98bdc-80ec-4e93-8509-2f46bafc09a7",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 39665917293,
+          "caa_release_mbid": "f0367385-411e-4112-8c27-67bc260f1875",
+          "recording_mbid": "98df2a93-9ee5-476d-8b3b-195822f557ee",
+          "recording_name": "My Way",
+          "release_group_mbid": "094d3708-cbe9-4a21-b502-c68e2d0cf127",
+          "release_mbid": "b55170b8-ecda-4020-ba8f-8b709661f90b",
+          "url_rels": [
+            {
+              "type": "purchase for download",
+              "url": "https://open.qobuz.com/track/34939108"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/us/song/1153704956"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/us/song/1153704956"
+            },
+            {
+              "type": "streaming",
+              "url": "https://open.qobuz.com/track/34939108"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/64999188"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/09HGHkuLuw9y9A9OV6tVJo"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/2926964391"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://www.beatport.com/track/-/19366570"
+            },
+            {
+              "type": "streaming",
+              "url": "https://tidal.com/track/379852030"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://music.apple.com/gb/song/1760348194"
+            },
+            {
+              "type": "streaming",
+              "url": "https://music.apple.com/gb/song/1760348194"
+            },
+            {
+              "type": "purchase for download",
+              "url": "https://open.qobuz.com/track/281090254"
+            },
+            {
+              "type": "streaming",
+              "url": "https://open.qobuz.com/track/281090254"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/132265704"
+            }
+          ]
+        },
+        "release_name": "My Way",
+        "track_name": "My Way"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789292212,
+      "listened_at": 1789292073,
+      "recording_msid": "7c1c2473-0793-4aeb-b839-956868be059e",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 278000,
+          "recording_msid": "7c1c2473-0793-4aeb-b839-956868be059e",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "LO'99",
+        "track_name": "Records U Play (Extended Mix)"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789291743,
+      "listened_at": 1789291503,
+      "recording_msid": "1fbdc9c6-30b7-4ca7-8585-2c9d1aaf52e7",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 515000,
+          "recording_msid": "1fbdc9c6-30b7-4ca7-8585-2c9d1aaf52e7",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Adana Twins",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "833ac212-c786-4d62-99bb-7a164083b658",
+            "948897d2-c72b-4e85-8b88-2e6f0432e434"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Adana Twins",
+              "artist_mbid": "833ac212-c786-4d62-99bb-7a164083b658",
+              "join_phrase": " & "
+            },
+            {
+              "artist_credit_name": "Glowal",
+              "artist_mbid": "948897d2-c72b-4e85-8b88-2e6f0432e434",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 31993748838,
+          "caa_release_mbid": "787054a7-63e6-44cb-aa03-69c293b55cf7",
+          "recording_mbid": "300b4e03-c0c6-4b93-ace8-ac0dcab45f43",
+          "recording_name": "My Computer",
+          "release_group_mbid": "cbc3b2a9-eb8a-4c19-a414-6547d43a2e9b",
+          "release_mbid": "787054a7-63e6-44cb-aa03-69c293b55cf7"
+        },
+        "release_name": "Picture: Adana Twins",
+        "track_name": "My Computer"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789291377,
+      "listened_at": 1789291276,
+      "recording_msid": "f4a66d34-015f-4e46-8298-ccf333958994",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 226000,
+          "recording_msid": "f4a66d34-015f-4e46-8298-ccf333958994",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Secret Echoes",
+        "release_name": "Bring My Beat Back",
+        "track_name": "Bring My Beat Back"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789406032,
+      "listened_at": 1789405935,
+      "recording_msid": "8e002cb5-6ab4-46bd-931a-8cb1184065fb",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 187000,
+          "recording_msid": "8e002cb5-6ab4-46bd-931a-8cb1184065fb",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Green Velvet",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e425b041-c28a-4ae8-9d5c-997890433cd4"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Green Velvet",
+              "artist_mbid": "e425b041-c28a-4ae8-9d5c-997890433cd4",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 26533087000,
+          "caa_release_mbid": "d587f401-74df-4e55-b761-80356ff2669a",
+          "recording_mbid": "a4aa0d85-225c-494b-8486-6aaff3916663",
+          "recording_name": "La La Land",
+          "release_group_mbid": "2a1532d0-f2df-37bf-b521-49a5bddf0210",
+          "release_mbid": "1194e91c-a734-3a4e-9248-9cd2ee540873"
+        },
+        "release_name": "La La Land",
+        "track_name": "La La Land"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789405860,
+      "listened_at": 1789405753,
+      "recording_msid": "65981506-dc24-49c9-ae0f-530e6a74dedf",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 182000,
+          "recording_msid": "65981506-dc24-49c9-ae0f-530e6a74dedf",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Rooléh",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "e44a620c-4321-4c4e-b7c7-51d3524efb2f"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Rooléh",
+              "artist_mbid": "e44a620c-4321-4c4e-b7c7-51d3524efb2f",
+              "join_phrase": ""
+            }
+          ],
+          "recording_mbid": "909a7c07-4038-43c8-a895-150a478d8ee7",
+          "recording_name": "Want To Know"
+        },
+        "release_name": "Want To Know",
+        "track_name": "Want To Know"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789404872,
+      "listened_at": 1789403618,
+      "recording_msid": "203af268-bb84-49ab-b497-3538f2f3b600",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "203af268-bb84-49ab-b497-3538f2f3b600",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Burnski",
+        "release_name": "Radio 1's Future Dance with Sarah Story - 2026",
+        "track_name": "Radio 1's Future Dance with Sarah Story: Burnski & Kepler - 2026-09-11"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789396999,
+      "listened_at": 1789396418,
+      "recording_msid": "2c21d727-1af3-472f-badd-786fd976385a",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "2c21d727-1af3-472f-badd-786fd976385a",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Barry Can't Swim x Sammy Virji Hottest Record",
+        "release_name": "Radio 1's Dance Party with Danny Howard - 2026",
+        "track_name": "Radio 1's Dance Party with Danny Howard: Barry Can't Swim x Sammy Virji Hottest Record - 2026-09-11"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789396490,
+      "listened_at": 1789395311,
+      "recording_msid": "da7d8d34-0d0f-40c2-843e-de280317c43d",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "da7d8d34-0d0f-40c2-843e-de280317c43d",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Sapian",
+        "release_name": "Pete Tong - 2026",
+        "track_name": "Pete Tong: Sapian - 2026-09-11"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789388966,
+      "listened_at": 1789388882,
+      "recording_msid": "da7d8d34-0d0f-40c2-843e-de280317c43d",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "da7d8d34-0d0f-40c2-843e-de280317c43d",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Sapian",
+        "release_name": "Pete Tong - 2026",
+        "track_name": "Pete Tong: Sapian - 2026-09-11"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789380951,
+      "listened_at": 1789380633,
+      "recording_msid": "da7d8d34-0d0f-40c2-843e-de280317c43d",
+      "track_metadata": {
+        "additional_info": {
+          "recording_msid": "da7d8d34-0d0f-40c2-843e-de280317c43d",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Sapian",
+        "release_name": "Pete Tong - 2026",
+        "track_name": "Pete Tong: Sapian - 2026-09-11"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789380951,
+      "listened_at": 1789369784,
+      "recording_msid": "87a10012-a759-412e-812d-5daa09f2b08e",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 266000,
+          "recording_msid": "87a10012-a759-412e-812d-5daa09f2b08e",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "A Tribe Called Quest",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "9689aa5a-4471-4fb4-9721-07cecda0fa9f"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "A Tribe Called Quest",
+              "artist_mbid": "9689aa5a-4471-4fb4-9721-07cecda0fa9f",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 23500322210,
+          "caa_release_mbid": "72875d9b-8a1e-4633-8a9b-3951f768b9cd",
+          "recording_mbid": "7a84cef9-dc6c-4db2-80e8-3bfc78853093",
+          "recording_name": "Can I Kick It?",
+          "release_group_mbid": "02adb8a7-496c-3a9a-a324-662df73fdba5",
+          "release_mbid": "72875d9b-8a1e-4633-8a9b-3951f768b9cd",
+          "url_rels": [
+            {
+              "type": "free streaming",
+              "url": "https://open.spotify.com/track/3Ti0GdlrotgwsAVBBugv0I"
+            },
+            {
+              "type": "free streaming",
+              "url": "https://www.deezer.com/track/102627468"
+            }
+          ]
+        },
+        "release_name": "Hits, Rarities & Remixes",
+        "track_name": "Can I Kick It?"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789369604,
+      "listened_at": 1789369402,
+      "recording_msid": "e6d7a1d1-c839-438b-8181-15bc85c09469",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 387000,
+          "recording_msid": "e6d7a1d1-c839-438b-8181-15bc85c09469",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Joris Voorn",
+        "mbid_mapping": {
+          "artist_mbids": [
+            "df3f8407-f82b-4cf6-9145-6e09f9e79b85"
+          ],
+          "artists": [
+            {
+              "artist_credit_name": "Joris Voorn",
+              "artist_mbid": "df3f8407-f82b-4cf6-9145-6e09f9e79b85",
+              "join_phrase": ""
+            }
+          ],
+          "caa_id": 40656704665,
+          "caa_release_mbid": "0e093c63-59c1-4caf-bd89-3d82d5cf68ed",
+          "recording_mbid": "f18d4fa1-004f-42cc-9eed-8cb2933bbd6c",
+          "recording_name": "Orange (Original Mix)",
+          "release_group_mbid": "73852d91-b24d-438a-bf8d-58bbe388d07a",
+          "release_mbid": "0e093c63-59c1-4caf-bd89-3d82d5cf68ed"
+        },
+        "release_name": "The Great Esquape",
+        "track_name": "Orange Original Mix"
+      },
+      "user_name": "dexforgets"
+    },
+    {
+      "inserted_at": 1789368962,
+      "listened_at": 1789368715,
+      "recording_msid": "8edcc538-2644-48d2-865b-912dba4aa677",
+      "track_metadata": {
+        "additional_info": {
+          "duration_ms": 682000,
+          "recording_msid": "8edcc538-2644-48d2-865b-912dba4aa677",
+          "submission_client": "Pano Scrobbler",
+          "submission_client_version": "4.42"
+        },
+        "artist_name": "Michael Jackson",
+        "track_name": "Billie Jean (Bushwacka Remix)"
       },
       "user_name": "dexforgets"
     }
