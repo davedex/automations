@@ -154,7 +154,10 @@ def main():
 
         # 3. Discover all Radio Show links from directory
         print("Fetching Pete Tong Radio Directory page...")
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Accept-Encoding': 'gzip, deflate'  # Explicitly omit 'br' to avoid Brotli decoding issues in python's urllib3
+        }
         r = requests.get('https://www.petetong.com/radio/', headers=headers, timeout=20)
         r.raise_for_status()
 
