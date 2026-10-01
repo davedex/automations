@@ -10,6 +10,8 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
 from ytmusicapi import YTMusic
 
 def send_discord_message(message: str):
@@ -66,8 +68,9 @@ YTMUSIC_HEADERS = Path(__file__).parent / "browser.json"
 
 SCROBBLE_CACHE_FILE = Path("listenbrainz_scrobbles_cache.json")
 
-# ListenBrainz allows up to 1000 listens per API request
-PAGE_SIZE = 1000
+# ListenBrainz allows up to 1000 listens per API request.
+# 250 is plenty for daily syncs and significantly reduces query execution time and timeout risk.
+PAGE_SIZE = 250
 
 PLAYLIST_ID = "PLcBZP0TaYjtHM-j7uhESWdbr3KRpD_zoo"
 
@@ -158,6 +161,26 @@ class ScrobbleCache:
             json.dump(payload, f, indent=2, ensure_ascii=False)
 
 
+def get_listenbrainz_session() -> requests.Session:
+    """
+    Creates a requests session configured with exponential backoff retries.
+    """
+    session = requests.Session()
+    retries = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        backoff_factor=3,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"],
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retries)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
+
+
 def listenbrainz_get_listens(
     session: requests.Session,
     *,
@@ -177,7 +200,7 @@ def listenbrainz_get_listens(
     if LISTENBRAINZ_TOKEN:
         headers["Authorization"] = f"Token {LISTENBRAINZ_TOKEN}"
 
-    r = session.get(url, params=params, headers=headers, timeout=30)
+    r = session.get(url, params=params, headers=headers, timeout=(10, 60))
     r.raise_for_status()
     data = r.json()
     return data.get("payload", {}).get("listens", []) or []
@@ -185,16 +208,27 @@ def listenbrainz_get_listens(
 
 def update_scrobble_cache(
     cache_path: Path = SCROBBLE_CACHE_FILE,
-    batch_size: int = 1000,
+    batch_size: int = PAGE_SIZE,
 ) -> ScrobbleCache:
     """
     Fetch the most recent `batch_size` listens and merge into cache.
     No server-side filtering; rely on local dedupe.
+    Falls back gracefully to existing cache if ListenBrainz is unreachable.
     """
     cache = ScrobbleCache.load(cache_path)
-    session = requests.Session()
+    session = get_listenbrainz_session()
 
-    latest = listenbrainz_get_listens(session, max_items=batch_size)
+    try:
+        latest = listenbrainz_get_listens(session, max_items=batch_size)
+    except requests.RequestException as e:
+        print(f"⚠️ ListenBrainz request failed: {e}")
+        if cache.scrobbles:
+            print(
+                f"⚠️ Continuing with existing cache "
+                f"({len(cache.scrobbles)} listens, max_time={cache.max_time})"
+            )
+            return cache
+        raise
 
     if not latest:
         print(f"✅ No listens returned. Cache size: {len(cache.scrobbles)}")
